@@ -2059,10 +2059,7 @@
    (strings_author
       "Harmonix"
    )
-   (game_origin blitz)
-   (name
-      "Give It Away (RB3 version)"
-   )
+   (game_origin rb2)
    (extra_authoring disc_update)
    (author
       "Harmonix"
@@ -2618,7 +2615,10 @@
    (strings_author
       "Harmonix"
    )
-   (game_origin rb3dlc)
+   (game_origin rb1_dlc)
+   (name
+      "I Want It All"
+   )
    (extra_authoring disc_update)
    (loading_phrase
       "Freddie Mercury and Brian May both share the lead vocals on this track. Mercury also played keyboards, while May played both acoustic and electric guitars and Roger Taylor used double-kick bass drumming, which was a first for him."
@@ -2681,9 +2681,9 @@
    (strings_author
       "Harmonix"
    )
-   (game_origin rb3dlc)
+   (game_origin rb1_dlc)
    (name
-      "I Want to Break Free (RB3 version)"
+      "I Want to Break Free"
    )
    (extra_authoring disc_update)
    (author
@@ -3190,7 +3190,10 @@
    (strings_author
       "Harmonix"
    )
-   (game_origin rb3dlc)
+   (game_origin rb1_dlc)
+   (name
+      "Killer Queen"
+   )
    (extra_authoring disc_update)
    (author
       "Harmonix"
@@ -3370,11 +3373,14 @@
    (strings_author
       "Harmonix"
    )
-   (game_origin rb3dlc)
+   (game_origin rb2)
    (album_name
       "Slippery When Wet"
    )
    (album_track_number 3)
+   (name
+      "Livin' on a Prayer"
+   )
    (extra_authoring disc_update)
    (loading_phrase
       "After \qLivin' on a Prayer,\q the characters Tommy and Gina appeared in at least two other Bon Jovi songs."
@@ -3838,9 +3844,10 @@
    (drum_bank
       "sfx/rb2_kit01_bank.milo"
    )
-   (name
-      "My Sharona (Cover)"
+   (album_name
+      "Get the Knack"
    )
+   (album_track_number 7)
    (master 0)
    (covered_by
       "WaveGroup"
@@ -4093,7 +4100,10 @@
    (strings_author
       "Harmonix"
    )
-   (game_origin rb3dlc)
+   (game_origin rb1_dlc)
+   (name
+      "One Vision"
+   )
    (extra_authoring disc_update)
    (author
       "Harmonix"
@@ -4742,7 +4752,10 @@
    (strings_author
       "Harmonix"
    )
-   (game_origin rb3dlc)
+   (game_origin rb1_dlc)
+   (name
+      "Ride"
+   )
    (extra_authoring disc_update)
    (author
       "Harmonix"
@@ -5523,12 +5536,12 @@
    (strings_author
       "Harmonix"
    )
-   (game_origin rb3dlc)
-   (name
-      "Somebody to Love (RB3 version)"
-   )
+   (game_origin rb1_dlc)
    (album_name
       "A Day at the Races"
+   )
+   (name
+      "Somebody to Love"
    )
    (extra_authoring disc_update)
    (author
@@ -5682,10 +5695,7 @@
    (strings_author
       "Harmonix"
    )
-   (game_origin blitz)
-   (name
-      "Spoonman (RB3 version)"
-   )
+   (game_origin rb2)
    (extra_authoring disc_update)
    (loading_phrase
       "After being immortalized by Soundgarden, Artis the Spoonman performed on Broadway, on network television and at music festivals throughout the world."
@@ -6978,7 +6988,10 @@
    (strings_author
       "Harmonix"
    )
-   (game_origin rb3dlc)
+   (game_origin rb1_dlc)
+   (name
+      "Under Pressure"
+   )
    (extra_authoring disc_update)
    (loading_phrase
       "The high note that Freddie Mercury hits (you know the one) is A5, still lower than his highest recorded note of E6."
@@ -7212,11 +7225,14 @@
    (strings_author
       "Harmonix"
    )
-   (game_origin rb3dlc)
+   (game_origin rb1)
    (album_name
       "Slippery When Wet"
    )
    (album_track_number 5)
+   (name
+      "Wanted Dead or Alive"
+   )
    (extra_authoring disc_update)
    (author
       "Harmonix"
@@ -7243,7 +7259,10 @@
    (strings_author
       "Harmonix"
    )
-   (game_origin rb3dlc)
+   (game_origin lego)
+   (name
+      "We Are the Champions"
+   )
    (extra_authoring disc_update)
    (loading_phrase
       "According to Freddie Mercury, the song \qWe Are the Champions\q was composed with football chants in mind. He wanted a song that mass audiences would want to participitate in."
@@ -7300,7 +7319,10 @@
    (strings_author
       "Harmonix"
    )
-   (game_origin rb3dlc)
+   (game_origin lego)
+   (name
+      "We Will Rock You"
+   )
    (extra_authoring disc_update)
    (loading_phrase
       "'We Will Rock You' has been covered by many artists over the years - including Axl Rose, Warrant, Linda Ronstadt, and Nickelback."
@@ -7559,11 +7581,14 @@
    (strings_author
       "Harmonix"
    )
-   (game_origin rb3dlc)
+   (game_origin lego)
    (album_name
       "Slippery When Wet"
    )
    (album_track_number 2)
+   (name
+      "You Give Love a Bad Name"
+   )
    (extra_authoring disc_update)
    (loading_phrase
       "SHOT THROUGH THE HEART / AND YOU'RE TO BLAME / PS3 HAS NO GAMES"
@@ -7627,6 +7652,193 @@
    (extra_authoring disc_update)
    (loading_phrase
       "During David Bowie's Ziggy Stardust period, he also produced albums for Lou Reed, Iggy Pop and Mott the Hoople."
+   )
+   (author
+      "Harmonix"
+   )
+)
+(alright2
+   (game_origin rb1_dlc)
+   (name
+      "Alright"
+   )
+   (author
+      "Harmonix"
+   )
+)
+(awfulbeautifullife2
+   (game_origin rb1_dlc)
+   (name
+      "Awful Beautiful Life"
+   )
+   (author
+      "Harmonix"
+   )
+)
+(backwoods2
+   (game_origin rb1_dlc)
+   (name
+      "Backwoods"
+   )
+   (author
+      "Harmonix"
+   )
+)
+(crazytown2
+   (game_origin rb1_dlc)
+   (name
+      "Crazy Town"
+   )
+   (author
+      "Harmonix"
+   )
+)
+(giddyonup2
+   (game_origin rb1_dlc)
+   (name
+      "Giddy on Up"
+   )
+   (author
+      "Harmonix"
+   )
+)
+(intentionalheartache2
+   (game_origin rb1_dlc)
+   (name
+      "Intentional Heartache"
+   )
+   (author
+      "Harmonix"
+   )
+)
+(kissagirl2
+   (game_origin rb1_dlc)
+   (name
+      "Kiss a Girl"
+   )
+   (extra_authoring disc_update)
+   (author
+      "Harmonix"
+   )
+)
+(mamatried2
+   (game_origin rb1_dlc)
+   (name
+      "Mama Tried"
+   )
+   (author
+      "Harmonix"
+   )
+)
+(manofme2
+   (game_origin rb1_dlc)
+   (name
+      "Man of Me"
+   )
+   (author
+      "Harmonix"
+   )
+)
+(parrtyfortwo2
+   (game_origin rb1_dlc)
+   (name
+      "Party for Two (with Billy Currington)"
+   )
+   (author
+      "Harmonix"
+   )
+)
+(perfectday2
+   (game_origin rb1_dlc)
+   (artist
+      "Lady A"
+   )
+   (name
+      "Perfect Day"
+   )
+   (author
+      "Harmonix"
+   )
+)
+(rainisagoodthing2
+   (game_origin rb1_dlc)
+   (name
+      "Rain Is a Good Thing"
+   )
+   (author
+      "Harmonix"
+   )
+)
+(ringoffire3
+   (game_origin rb1_dlc)
+   (name
+      "Ring of Fire"
+   )
+   (loading_phrase
+      "'Ring of Fire' was actually written by June Carter and Merle Kilgore and performed by June's sister Anita."
+   )
+   (author
+      "Harmonix"
+   )
+)
+(settlin2
+   (game_origin rb1_dlc)
+   (name
+      "Settlin'"
+   )
+   (author
+      "Harmonix"
+   )
+)
+(sideways2
+   (game_origin rb1_dlc)
+   (name
+      "Sideways"
+   )
+   (author
+      "Harmonix"
+   )
+)
+(singlewhitefemale2
+   (game_origin rb1_dlc)
+   (name
+      "Single White Female"
+   )
+   (author
+      "Harmonix"
+   )
+)
+(summernights2
+   (game_origin rb1_dlc)
+   (name
+      "Summer Nights"
+   )
+   (author
+      "Harmonix"
+   )
+)
+(thatshowcountryboysroll2
+   (game_origin rb1_dlc)
+   (name
+      "That's How Country Boys Roll"
+   )
+   (author
+      "Harmonix"
+   )
+)
+(thenightthelightswentout2
+   (game_origin rb1_dlc)
+   (name
+      "The Night the Lights Went Out in Georgia"
+   )
+   (author
+      "Harmonix"
+   )
+)
+(twang2
+   (game_origin rb1_dlc)
+   (name
+      "TWANG"
    )
    (author
       "Harmonix"
@@ -7736,9 +7948,10 @@
    (drum_bank
       "sfx/rb1_kit_bank.milo"
    )
-   (name
-      "Ballroom Blitz (Cover)"
+   (album_name
+      "Desolation Boulevard"
    )
+   (album_track_number 1)
    (master 0)
    (covered_by
       "WaveGroup"
@@ -8269,18 +8482,41 @@
    (genre alternative)
    (song
       (vocal_parts 3)
+      (tracks
+         (
+            (drum
+               (0 1 2 3 4 5)
+            )
+            (bass 6)
+            (guitar
+               (7 8)
+            )
+            (vocals
+               (9 10)
+            )
+            (keys
+               (11 12)
+            )
+         )
+      )
    )
    (extra_authoring disc_update)
-   (upgrade_version 1)
    (rank
       (drum 280)
       (guitar 290)
       (bass 290)
       (vocals 155)
+      (keys 1)
+      (real_keys 1)
+      (band 340)
       (real_guitar 400)
       (real_bass 345)
-      (band 340)
    )
+   (version 30)
+   (keys_author
+      "TheSheepQueen"
+   )
+   (upgrade_version 1)
    (real_guitar_tuning
       (0 0 0 0 0 0)
    )
@@ -8297,7 +8533,6 @@
       (guitar vocal_percussion)
    )
    (format 10)
-   (version 1)
    (game_origin rb1)
    (rating 2)
    (year_released 2006)
@@ -9029,9 +9264,10 @@
    (drum_bank
       "sfx/rb1_kit_bank.milo"
    )
-   (name
-      "Green Grass and High Tides (Cover)"
+   (album_name
+      "Outlaws"
    )
+   (album_track_number 10)
    (master 0)
    (covered_by
       "WaveGroup"
@@ -9602,9 +9838,10 @@
    (drum_bank
       "sfx/rb1_kit_bank.milo"
    )
-   (name
-      "Mississippi Queen (Cover)"
+   (album_name
+      "Climbing!"
    )
+   (album_track_number 1)
    (master 0)
    (covered_by
       "WaveGroup"
@@ -9901,9 +10138,10 @@
    (drum_bank
       "sfx/rb1_kit_bank.milo"
    )
-   (name
-      "Paranoid (Cover)"
+   (album_name
+      "Paranoid"
    )
+   (album_track_number 2)
    (master 0)
    (covered_by
       "WaveGroup"
@@ -10034,9 +10272,6 @@
    (song_tonality 1)
    (drum_bank
       "sfx/rb1_kit_bank.milo"
-   )
-   (name
-      "Run to the Hills (Cover)"
    )
    (master 0)
    (covered_by
@@ -10555,9 +10790,6 @@
    (drum_bank
       "sfx/rb1_kit_bank.milo"
    )
-   (name
-      "Tom Sawyer (Cover)"
-   )
    (master 0)
    (covered_by
       "WaveGroup"
@@ -10609,9 +10841,10 @@
    (drum_bank
       "sfx/rb1_kit_bank.milo"
    )
-   (name
-      "Train Kept a Rollin' (Cover)"
+   (album_name
+      "Get Your Wings"
    )
+   (album_track_number 6)
    (master 0)
    (covered_by
       "WaveGroup"
@@ -11118,18 +11351,38 @@
    )
    (song
       (vocal_parts 3)
+      (tracks
+         (
+            (drum
+               (0 1 2 3 4 5)
+            )
+            (bass 6)
+            (guitar
+               (7 8)
+            )
+            (vocals
+               (9 10)
+            )
+            (keys
+               (11 12)
+            )
+         )
+      )
    )
    (extra_authoring disc_update)
-   (upgrade_version 1)
    (rank
       (drum 330)
       (guitar 282)
       (bass 304)
       (vocals 213)
+      (keys 1)
+      (real_keys 1)
+      (band 309)
       (real_guitar 424)
       (real_bass 364)
-      (band 309)
    )
+   (version 30)
+   (upgrade_version 1)
    (real_guitar_tuning
       (0 0 2 2 2 0)
    )
@@ -11914,16 +12167,40 @@
       "sfx/rb2_kit01_bank.milo"
    )
    (extra_authoring disc_update)
-   (upgrade_version 1)
+   (song
+      (tracks
+         (
+            (drum
+               (0 1 2 3)
+            )
+            (bass
+               (4 5)
+            )
+            (guitar
+               (6 7)
+            )
+            (vocals
+               (8 9)
+            )
+            (keys
+               (10 11)
+            )
+         )
+      )
+   )
    (rank
       (drum 343)
       (guitar 305)
       (bass 352)
       (vocals 378)
+      (keys 1)
+      (real_keys 1)
+      (band 400)
       (real_guitar 354)
       (real_bass 244)
-      (band 400)
    )
+   (version 30)
+   (upgrade_version 1)
    (real_guitar_tuning
       (-2 0 0 0 0 0)
    )
@@ -17532,9 +17809,10 @@
    (drum_bank
       "sfx/rb2_kit01_bank.milo"
    )
-   (name
-      "Action (Cover)"
+   (album_name
+      "Give Us a Wink"
    )
+   (album_track_number 5)
    (master 0)
    (covered_by
       "WaveGroup"
@@ -18646,8 +18924,35 @@
    )
    (song
       (vocal_parts 2)
+      (tracks
+         (
+            (drum
+               (0 1)
+            )
+            (bass 2)
+            (guitar
+               (3 4)
+            )
+            (vocals
+               (5 6)
+            )
+            (keys
+               (7 8)
+            )
+         )
+      )
    )
    (extra_authoring disc_update)
+   (rank
+      (drum 131)
+      (guitar 191)
+      (bass 171)
+      (vocals 252)
+      (keys 1)
+      (real_keys 1)
+      (band 180)
+   )
+   (version 30)
    (song_length 223181)
    (format 10)
    (game_origin rb1_dlc)
@@ -19276,8 +19581,12 @@
       "sfx/rb2_kit01_bank.milo"
    )
    (name
-      "Bang a Gong (Cover)"
+      "Bang a Gong (Get It On)"
    )
+   (album_name
+      "Electric Warrior"
+   )
+   (album_track_number 6)
    (master 0)
    (covered_by
       "WaveGroup"
@@ -19573,9 +19882,10 @@
    (drum_bank
       "sfx/rb2_kit01_bank.milo"
    )
-   (name
-      "Beetlebum (Cover)"
+   (album_name
+      "Blur"
    )
+   (album_track_number 1)
    (master 0)
    (covered_by
       "WaveGroup"
@@ -20441,8 +20751,12 @@
       "sfx/rb2_kit01_bank.milo"
    )
    (name
-      "Brass in Pocket (Cover)"
+      "Brass in Pocket"
    )
+   (album_name
+      "Pretenders"
+   )
+   (album_track_number 3)
    (master 0)
    (covered_by
       "WaveGroup"
@@ -21602,9 +21916,10 @@
    (drum_bank
       "sfx/rb2_kit01_bank.milo"
    )
-   (name
-      "Cherry Bomb (Cover)"
+   (album_name
+      "The Runaways"
    )
+   (album_track_number 1)
    (master 0)
    (covered_by
       "WaveGroup"
@@ -21975,6 +22290,37 @@
       "sfx/rb2_kit01_bank.milo"
    )
    (extra_authoring disc_update)
+   (song
+      (tracks
+         (
+            (drum
+               (0 1)
+            )
+            (bass
+               (2 3)
+            )
+            (guitar
+               (4 5)
+            )
+            (vocals
+               (6 7)
+            )
+            (keys
+               (8 9)
+            )
+         )
+      )
+   )
+   (rank
+      (drum 180)
+      (guitar 230)
+      (bass 200)
+      (vocals 160)
+      (keys 1)
+      (real_keys 1)
+      (band 192)
+   )
+   (version 30)
    (song_id 1005158)
    (preview 66680 96680)
    (song_length 184090)
@@ -24450,8 +24796,35 @@
    )
    (song
       (vocal_parts 2)
+      (tracks
+         (
+            (drum
+               (0 1 2 3)
+            )
+            (bass 4)
+            (guitar
+               (5 6)
+            )
+            (vocals
+               (7 8)
+            )
+            (keys
+               (9 10)
+            )
+         )
+      )
    )
    (extra_authoring disc_update)
+   (rank
+      (drum 208)
+      (guitar 208)
+      (bass 240)
+      (vocals 207)
+      (band 208)
+      (keys 1)
+      (real_keys 1)
+   )
+   (version 30)
    (author
       "Harmonix"
    )
@@ -24468,8 +24841,35 @@
    (genre hiphoprap)
    (song
       (vocal_parts 3)
+      (tracks
+         (
+            (drum
+               (0 1 2 3 4 5)
+            )
+            (bass 6)
+            (guitar
+               (7 8)
+            )
+            (vocals
+               (9 10)
+            )
+            (keys
+               (11 12)
+            )
+         )
+      )
    )
    (extra_authoring disc_update)
+   (rank
+      (drum 213)
+      (guitar 299)
+      (bass 170)
+      (vocals 150)
+      (keys 1)
+      (real_keys 170)
+      (band 265)
+   )
+   (version 30)
    (author
       "Harmonix"
    )
@@ -24905,8 +25305,12 @@
       "sfx/rb2_kit01_bank.milo"
    )
    (name
-      "Ever Fallen in Love (Cover)"
+      "Ever Fallen in Love (With Someone You Shouldn't've)"
    )
+   (album_name
+      "Love Bites"
+   )
+   (album_track_number 2)
    (master 0)
    (covered_by
       "WaveGroup"
@@ -25619,8 +26023,35 @@
    )
    (song
       (vocal_parts 2)
+      (tracks
+         (
+            (drum
+               (0 1)
+            )
+            (bass 2)
+            (guitar
+               (3 4)
+            )
+            (vocals
+               (5 6)
+            )
+            (keys
+               (7 8)
+            )
+         )
+      )
    )
    (extra_authoring disc_update)
+   (rank
+      (drum 266)
+      (guitar 267)
+      (bass 162)
+      (vocals 218)
+      (keys 1)
+      (real_keys 1)
+      (band 270)
+   )
+   (version 30)
    (solo
       (guitar)
    )
@@ -25908,9 +26339,6 @@
    (song_tonality 0)
    (drum_bank
       "sfx/rb2_kit01_bank.milo"
-   )
-   (name
-      "Fortunate Son (Cover)"
    )
    (master 0)
    (covered_by
@@ -27587,8 +28015,12 @@
       "sfx/rb2_kit01_bank.milo"
    )
    (name
-      "Hard to Handle (Cover)"
+      "Hard to Handle"
    )
+   (album_name
+      "Shake Your Money Maker"
+   )
+   (album_track_number 6)
    (master 0)
    (covered_by
       "WaveGroup"
@@ -28210,8 +28642,12 @@
       "sfx/rb2_kit01_bank.milo"
    )
    (name
-      "Heroes (Cover)"
+      "Heroes"
    )
+   (album_name
+      "Heroes"
+   )
+   (album_track_number 3)
    (master 0)
    (covered_by
       "WaveGroup"
@@ -30096,8 +30532,35 @@
    )
    (song
       (vocal_parts 2)
+      (tracks
+         (
+            (drum
+               (0 1 2 3 4 5)
+            )
+            (bass 6)
+            (guitar
+               (7 8)
+            )
+            (vocals
+               (9 10)
+            )
+            (keys
+               (11 12)
+            )
+         )
+      )
    )
    (extra_authoring disc_update)
+   (rank
+      (drum 209)
+      (guitar 302)
+      (bass 210)
+      (vocals 205)
+      (keys 153)
+      (real_keys 153)
+      (band 245)
+   )
+   (version 30)
    (author
       "Harmonix"
    )
@@ -30426,8 +30889,35 @@
    )
    (song
       (vocal_parts 3)
+      (tracks
+         (
+            (drum
+               (0 1 2 3 4)
+            )
+            (bass 5)
+            (guitar
+               (6 7)
+            )
+            (vocals
+               (8 9)
+            )
+            (keys
+               (10 11)
+            )
+         )
+      )
    )
    (extra_authoring disc_update)
+   (rank
+      (drum 194)
+      (guitar 199)
+      (bass 225)
+      (vocals 245)
+      (band 200)
+      (keys 153)
+      (real_keys 153)
+   )
+   (version 30)
    (author
       "Harmonix"
    )
@@ -30863,9 +31353,10 @@
    (drum_bank
       "sfx/rb2_kit01_bank.milo"
    )
-   (name
-      "Juke Box Hero (Cover)"
+   (album_name
+      "4"
    )
+   (album_track_number 2)
    (master 0)
    (covered_by
       "WaveGroup"
@@ -31621,9 +32112,10 @@
    (drum_bank
       "sfx/rb2_kit01_bank.milo"
    )
-   (name
-      "Last Train to Clarksville (Cover)"
+   (album_name
+      "The Monkees"
    )
+   (album_track_number 7)
    (master 0)
    (covered_by
       "WaveGroup"
@@ -31978,9 +32470,6 @@
    (song_tonality 0)
    (drum_bank
       "sfx/rb2_kit01_bank.milo"
-   )
-   (name
-      "Limelight (Cover)"
    )
    (master 0)
    (covered_by
@@ -33511,6 +34000,25 @@
    )
    (song
       (vocal_parts 3)
+      (tracks
+         (
+            (drum
+               (0 1 2)
+            )
+            (bass
+               (3 4)
+            )
+            (guitar
+               (5 6)
+            )
+            (vocals
+               (7 8)
+            )
+            (keys
+               (9 10)
+            )
+         )
+      )
    )
    (extra_authoring disc_update)
    (upgrade_version 1)
@@ -33522,6 +34030,8 @@
       (real_guitar 221)
       (real_bass 181)
       (band 268)
+      (keys 1)
+      (real_keys 1)
    )
    (real_guitar_tuning
       (0 0 0 0 0 0)
@@ -33532,6 +34042,10 @@
    (strings_author
       "Shroud"
    )
+   (version 30)
+   (keys_author
+      "FujiSkunk"
+   )
    (name
       "Message in a Bottle"
    )
@@ -33541,7 +34055,6 @@
       (guitar vocal_percussion)
    )
    (format 10)
-   (version 1)
    (game_origin rb1_dlc)
    (rating 1)
    (year_released 1979)
@@ -34715,18 +35228,41 @@
    )
    (song
       (vocal_parts 3)
+      (tracks
+         (
+            (drum
+               (0 1 2 3)
+            )
+            (bass 4)
+            (guitar
+               (5 6)
+            )
+            (vocals
+               (7 8)
+            )
+            (keys
+               (9 10)
+            )
+         )
+      )
    )
    (extra_authoring disc_update)
-   (upgrade_version 1)
    (rank
       (drum 170)
       (guitar 178)
       (bass 141)
       (vocals 205)
+      (keys 1)
+      (real_keys 1)
+      (band 175)
       (real_guitar 243)
       (real_bass 203)
-      (band 175)
    )
+   (version 30)
+   (keys_author
+      "FujiSkunk"
+   )
+   (upgrade_version 1)
    (real_guitar_tuning
       (-2 0 0 0 0 0)
    )
@@ -34739,7 +35275,6 @@
    (song_id 1005210)
    (song_length 221818)
    (format 10)
-   (version 2)
    (game_origin rb1_dlc)
    (rating 2)
    (author
@@ -34934,9 +35469,10 @@
    (drum_bank
       "sfx/rb2_kit01_bank.milo"
    )
-   (name
-      "N.I.B. (Cover)"
+   (album_name
+      "Black Sabbath"
    )
+   (album_track_number 4)
    (master 0)
    (covered_by
       "WaveGroup"
@@ -35325,9 +35861,6 @@
    (song_tonality 0)
    (drum_bank
       "sfx/rb2_kit01_bank.milo"
-   )
-   (name
-      "The Number of the Beast (Cover)"
    )
    (master 0)
    (covered_by
@@ -36073,8 +36606,37 @@
    )
    (song
       (vocal_parts 3)
+      (tracks
+         (
+            (drum
+               (0 1 2 3 4)
+            )
+            (bass
+               (5 6)
+            )
+            (guitar
+               (7 8)
+            )
+            (vocals
+               (9 10)
+            )
+            (keys
+               (11 12)
+            )
+         )
+      )
    )
    (extra_authoring disc_update)
+   (rank
+      (drum 348)
+      (guitar 310)
+      (bass 180)
+      (vocals 242)
+      (keys 1)
+      (real_keys 1)
+      (band 338)
+   )
+   (version 30)
    (solo
       (guitar)
    )
@@ -37125,9 +37687,10 @@
    (drum_bank
       "sfx/rb2_kit01_bank.milo"
    )
-   (name
-      "Queen Bitch (Cover)"
+   (album_name
+      "Hunky Dory"
    )
+   (album_track_number 10)
    (master 0)
    (covered_by
       "WaveGroup"
@@ -38565,13 +39128,42 @@
    )
    (song
       (vocal_parts 3)
+      (tracks
+         (
+            (drum
+               (0 1 2 3 4)
+            )
+            (bass 5)
+            (guitar
+               (6 7)
+            )
+            (vocals
+               (8 9)
+            )
+            (keys
+               (10 11)
+            )
+         )
+      )
    )
    (extra_authoring disc_update)
+   (rank
+      (drum 130)
+      (guitar 115)
+      (bass 115)
+      (vocals 220)
+      (keys 1)
+      (real_keys 1)
+      (band 145)
+   )
+   (version 30)
+   (keys_author
+      "MarsPhoenix"
+   )
    (song_id 1005011)
    (preview 50300 80300)
    (song_length 179090)
    (format 10)
-   (version 1)
    (game_origin rb1_dlc)
    (rating 2)
    (year_released 1978)
@@ -40843,9 +41435,10 @@
    (drum_bank
       "sfx/rb2_kit01_bank.milo"
    )
-   (name
-      "Song with a Mission (Cover)"
+   (album_name
+      "Dying to Say This to You"
    )
+   (album_track_number 1)
    (master 0)
    (covered_by
       "WaveGroup"
@@ -42344,9 +42937,10 @@
    (drum_bank
       "sfx/rb2_kit01_bank.milo"
    )
-   (name
-      "Sweet Leaf (Cover)"
+   (album_name
+      "Master of Reality"
    )
+   (album_track_number 1)
    (master 0)
    (covered_by
       "WaveGroup"
@@ -42439,8 +43033,35 @@
    )
    (song
       (vocal_parts 3)
+      (tracks
+         (
+            (drum
+               (0 1 2 3 4)
+            )
+            (bass 5)
+            (guitar
+               (6 7)
+            )
+            (vocals
+               (8 9)
+            )
+            (keys
+               (10 11)
+            )
+         )
+      )
    )
    (extra_authoring disc_update)
+   (rank
+      (drum 265)
+      (guitar 293)
+      (bass 141)
+      (vocals 199)
+      (keys 153)
+      (real_keys 153)
+      (band 248)
+   )
+   (version 30)
    (song_id 1005456)
    (song_length 228636)
    (solo
@@ -42461,6 +43082,23 @@
    )
    (song
       (vocal_parts 2)
+      (tracks
+         (
+            (drum
+               (0 1 2 3 4)
+            )
+            (bass 5)
+            (guitar
+               (6 7)
+            )
+            (vocals
+               (8 9)
+            )
+            (keys
+               (10 11)
+            )
+         )
+      )
    )
    (extra_authoring disc_update)
    (upgrade_version 1)
@@ -42472,6 +43110,8 @@
       (real_guitar 221)
       (real_bass 228)
       (band 225)
+      (keys 1)
+      (real_keys 1)
    )
    (real_guitar_tuning
       (0 0 0 0 0 0)
@@ -42482,6 +43122,10 @@
    (strings_author
       "Shroud"
    )
+   (version 30)
+   (keys_author
+      "FujiSkunk"
+   )
    (song_id 1005010)
    (preview 47700 77700)
    (song_length 288181)
@@ -42489,7 +43133,6 @@
       (guitar vocal_percussion)
    )
    (format 10)
-   (version 1)
    (game_origin rb1_dlc)
    (rating 2)
    (year_released 1983)
@@ -42594,8 +43237,35 @@
    )
    (song
       (vocal_parts 3)
+      (tracks
+         (
+            (drum
+               (0 1 2 3 4 5)
+            )
+            (bass 6)
+            (guitar
+               (7 8)
+            )
+            (vocals
+               (9 10)
+            )
+            (keys
+               (11 12)
+            )
+         )
+      )
    )
    (extra_authoring disc_update)
+   (rank
+      (drum 257)
+      (guitar 241)
+      (bass 130)
+      (vocals 143)
+      (keys 1)
+      (real_keys 1)
+      (band 211)
+   )
+   (version 30)
    (song_id 1005545)
    (song_length 241363)
    (solo
@@ -42871,9 +43541,10 @@
    (drum_bank
       "sfx/rb2_kit01_bank.milo"
    )
-   (name
-      "Ten Speed (Of God's Blood and Burial) (Cover)"
+   (album_name
+      "Good Apollo, I'm Burning Star IV, Volume One: From Fear Through the Eyes of Madness"
    )
+   (album_track_number 4)
    (master 0)
    (covered_by
       "WaveGroup"
@@ -43179,6 +43850,35 @@
    )
    (album_track_number 7)
    (extra_authoring disc_update)
+   (song
+      (tracks
+         (
+            (drum
+               (0 1 2 3 4)
+            )
+            (bass 5)
+            (guitar
+               (6 7)
+            )
+            (vocals
+               (8 9)
+            )
+            (keys
+               (10 11)
+            )
+         )
+      )
+   )
+   (rank
+      (drum 412)
+      (guitar 358)
+      (bass 325)
+      (vocals 278)
+      (keys 1)
+      (real_keys 1)
+      (band 404)
+   )
+   (version 30)
    (song_id 1005582)
    (song_length 270909)
    (solo
@@ -45541,15 +46241,41 @@
    )
    (song
       (vocal_parts 3)
+      (tracks
+         (
+            (drum
+               (0 1 2 3 4)
+            )
+            (bass 5)
+            (guitar
+               (6 7)
+            )
+            (vocals
+               (8 9)
+            )
+            (keys
+               (10 11)
+            )
+         )
+      )
    )
    (extra_authoring disc_update)
+   (rank
+      (drum 350)
+      (guitar 240)
+      (bass 240)
+      (vocals 125)
+      (band 300)
+      (keys 1)
+      (real_keys 1)
+   )
+   (version 30)
    (song_id 1005051)
    (song_length 176818)
    (solo
       (vocal_percussion)
    )
    (format 10)
-   (version 1)
    (game_origin rb1_dlc)
    (rating 2)
    (year_released 1978)
@@ -46448,9 +47174,10 @@
    (drum_bank
       "sfx/rb2_kit01_bank.milo"
    )
-   (name
-      "War Pigs (Cover)"
+   (album_name
+      "Paranoid"
    )
+   (album_track_number 1)
    (master 0)
    (covered_by
       "WaveGroup"
@@ -47681,8 +48408,35 @@
    )
    (song
       (vocal_parts 3)
+      (tracks
+         (
+            (drum
+               (0 1 2 3 4 5)
+            )
+            (bass 6)
+            (guitar
+               (7 8)
+            )
+            (vocals
+               (9 10)
+            )
+            (keys
+               (11 12)
+            )
+         )
+      )
    )
    (extra_authoring disc_update)
+   (rank
+      (drum 304)
+      (guitar 174)
+      (bass 198)
+      (vocals 189)
+      (band 255)
+      (keys 1)
+      (real_keys 1)
+   )
+   (version 30)
    (song_length 232272)
    (solo
       (drum)
@@ -47698,9 +48452,6 @@
    (song_tonality 1)
    (drum_bank
       "sfx/rb2_kit01_bank.milo"
-   )
-   (name
-      "Working Man (Cover)"
    )
    (master 0)
    (covered_by
@@ -61307,12 +62058,6 @@
       "Harmonix"
    )
 )
-(alright2
-   (game_origin rb3dlc)
-   (author
-      "Harmonix"
-   )
-)
 (amber
    (game_origin rb3dlc)
    (author
@@ -61389,12 +62134,6 @@
       "Harmonix"
    )
 )
-(awfulbeautifullife2
-   (game_origin rb3dlc)
-   (author
-      "Harmonix"
-   )
-)
 (awhitershadeofpale
    (game_origin rb3dlc)
    (author
@@ -61419,12 +62158,6 @@
    (extra_authoring disc_update)
    (author
       "Harmonix, Rhythm Authors"
-   )
-)
-(backwoods2
-   (game_origin rb3dlc)
-   (author
-      "Harmonix"
    )
 )
 (badmedicine
@@ -61803,12 +62536,6 @@
       "Harmonix"
    )
 )
-(crazytown2
-   (game_origin rb3dlc)
-   (author
-      "Harmonix"
-   )
-)
 (crippledinside
    (game_origin rb3dlc)
    (drum_bank
@@ -62178,15 +62905,6 @@
       "Harmonix"
    )
 )
-(giddyonup2
-   (game_origin rb3dlc)
-   (name
-      "Giddy on Up (RB3 version)"
-   )
-   (author
-      "Harmonix"
-   )
-)
 (gimmesometruth
    (game_origin rb3dlc)
    (drum_bank
@@ -62549,12 +63267,6 @@
       "Harmonix"
    )
 )
-(intentionalheartache2
-   (game_origin rb3dlc)
-   (author
-      "Harmonix"
-   )
-)
 (invincible
    (game_origin rb3dlc)
    (author
@@ -62652,7 +63364,6 @@
 )
 (iwanttoknowwhatloveis
    (game_origin rb3dlc)
-   (extra_authoring disc_update)
    (author
       "Harmonix"
    )
@@ -62749,13 +63460,6 @@
    )
 )
 (kingofrock
-   (game_origin rb3dlc)
-   (extra_authoring disc_update)
-   (author
-      "Harmonix"
-   )
-)
-(kissagirl2
    (game_origin rb3dlc)
    (extra_authoring disc_update)
    (author
@@ -62902,7 +63606,6 @@
 )
 (lovegame
    (game_origin rb3dlc)
-   (extra_authoring disc_update)
    (author
       "Harmonix"
    )
@@ -62961,24 +63664,11 @@
 )
 (makesomenoise
    (game_origin rb3dlc)
-   (extra_authoring disc_update)
-   (author
-      "Harmonix"
-   )
-)
-(mamatried2
-   (game_origin rb3dlc)
    (author
       "Harmonix"
    )
 )
 (maneater2
-   (game_origin rb3dlc)
-   (author
-      "Harmonix"
-   )
-)
-(manofme2
    (game_origin rb3dlc)
    (author
       "Harmonix"
@@ -63339,12 +64029,6 @@
       "Harmonix"
    )
 )
-(parrtyfortwo2
-   (game_origin rb3dlc)
-   (author
-      "Harmonix"
-   )
-)
 (parrtyhard
    (game_origin rb3dlc)
    (extra_authoring disc_update)
@@ -63383,15 +64067,6 @@
 (peoplearestrange
    (game_origin rb3dlc)
    (genre psychadelic)
-   (author
-      "Harmonix"
-   )
-)
-(perfectday2
-   (game_origin rb3dlc)
-   (artist
-      "Lady A"
-   )
    (author
       "Harmonix"
    )
@@ -63501,12 +64176,6 @@
       "Harmonix"
    )
 )
-(rainisagoodthing2
-   (game_origin rb3dlc)
-   (author
-      "Harmonix"
-   )
-)
 (rapeme
    (game_origin rb3dlc)
    (extra_authoring disc_update)
@@ -63590,15 +64259,6 @@
    )
    (strings_author
       "JDK_13"
-   )
-   (author
-      "Harmonix"
-   )
-)
-(ringoffire3
-   (game_origin rb3dlc)
-   (loading_phrase
-      "'Ring of Fire' was actually written by June Carter and Merle Kilgore and performed by June's sister Anita."
    )
    (author
       "Harmonix"
@@ -63758,12 +64418,6 @@
       "Harmonix"
    )
 )
-(settlin2
-   (game_origin rb3dlc)
-   (author
-      "Harmonix"
-   )
-)
 (sevenseasofrhye
    (game_origin rb3dlc)
    (author
@@ -63843,24 +64497,12 @@
       "Harmonix"
    )
 )
-(sideways2
-   (game_origin rb3dlc)
-   (author
-      "Harmonix"
-   )
-)
 (silentlucidity
    (game_origin rb3dlc)
    (artist
       "Queensrÿche"
    )
    (encoding latin1)
-   (author
-      "Harmonix"
-   )
-)
-(singlewhitefemale2
-   (game_origin rb3dlc)
    (author
       "Harmonix"
    )
@@ -64091,12 +64733,6 @@
       "Harmonix"
    )
 )
-(summernights2
-   (game_origin rb3dlc)
-   (author
-      "Harmonix"
-   )
-)
 (superstition
    (game_origin rb3dlc)
    (loading_phrase
@@ -64198,12 +64834,6 @@
       "Harmonix"
    )
 )
-(thatshowcountryboysroll2
-   (game_origin rb3dlc)
-   (author
-      "Harmonix"
-   )
-)
 (theadventure
    (game_origin rb3dlc)
    (author
@@ -64278,19 +64908,9 @@
       "Harmonix"
    )
 )
-(thenightthelightswentout2
-   (game_origin rb3dlc)
-   (name
-      "The Night the Lights Went Out in Georgia (RB3 version)"
-   )
-   (author
-      "Harmonix"
-   )
-)
 (theonlytime
    (game_origin rb3dlc)
    (genre industrial)
-   (extra_authoring disc_update)
    (author
       "Harmonix"
    )
@@ -64420,12 +65040,6 @@
    (loading_phrase
       "Talking about \qTuesday's Gone\q, James Hetfield of Metallica once said \qI always loved that one. It's a movin'-on song - you're splitting, you're leaving your woman at home. You're off doing your own thing. It really fits the road\q."
    )
-   (author
-      "Harmonix"
-   )
-)
-(twang2
-   (game_origin rb3dlc)
    (author
       "Harmonix"
    )
@@ -64936,6 +65550,9 @@
    (author
       "Rhythm Authors"
    )
+   (name
+      "Buried Cold"
+   )
 )
 (UGC_5005828
    (game_origin ugc2)
@@ -64971,6 +65588,9 @@
    (game_origin ugc2)
    (author
       "Rhythm Authors"
+   )
+   (name
+      "Africa"
    )
 )
 (UGC_5005872
@@ -65014,6 +65634,9 @@
    (game_origin ugc2)
    (author
       "Rhythm Authors"
+   )
+   (name
+      "The Final Episode (Let's Change the Channel)"
    )
 )
 (UGC_5005933
@@ -65622,6 +66245,9 @@
    (game_origin ugc2)
    (author
       "roseofjericho"
+   )
+   (name
+      "Midnight Eyes"
    )
 )
 (UGC_5006261
@@ -66657,6 +67283,9 @@
    (author
       "RockGamer"
    )
+   (name
+      "Far Away from Heaven"
+   )
 )
 (UGC_5006875
    (game_origin ugc2)
@@ -66692,6 +67321,9 @@
    (game_origin ugc2)
    (author
       "RockGamer"
+   )
+   (name
+      "Pale Sister of Light"
    )
 )
 (UGC_5006939
@@ -66825,6 +67457,9 @@
    (game_origin ugc2)
    (author
       "RockGamer"
+   )
+   (name
+      "Stand for Something"
    )
 )
 (UGC_5007132
@@ -67260,6 +67895,9 @@
       (real_keys 443)
       (band 267)
    )
+   (name
+      "A Prophecy"
+   )
 )
 (UGC_5007487
    (game_origin ugc2)
@@ -67271,6 +67909,9 @@
    (game_origin ugc2)
    (author
       "RockGamer"
+   )
+   (name
+      "Until the Night"
    )
 )
 (UGC_5007494
@@ -67369,6 +68010,9 @@
    (game_origin ugc2)
    (author
       "FreenInGreen"
+   )
+   (name
+      "Ramp Truck"
    )
 )
 (UGC_5007565
@@ -67672,6 +68316,9 @@
    (game_origin ugc2)
    (author
       "Rhythm Authors"
+   )
+   (name
+      "Hey There Mr. Brooks"
    )
 )
 (UGC_5007853
@@ -68509,6 +69156,9 @@
    (author
       "RockGamer"
    )
+   (name
+      "Hook, Line, and Sinner"
+   )
 )
 (UGC_5008502
    (game_origin ugc2)
@@ -68935,6 +69585,9 @@
    (author
       "Alt-StrumProductions"
    )
+   (name
+      "The Brave / Agony Applause"
+   )
 )
 (UGC_5008784
    (game_origin ugc2)
@@ -69349,6 +70002,9 @@
    (game_origin ugc2)
    (author
       "ChartToppers"
+   )
+   (name
+      "Creatures ov Deception"
    )
 )
 (UGC_5009034
@@ -70193,6 +70849,9 @@
    (game_origin ugc2)
    (author
       "FairwoodStudios"
+   )
+   (name
+      "Eternal Divine Angel Death"
    )
 )
 (UGC_5009816
@@ -72080,6 +72739,9 @@
    (author
       "FairwoodStudios"
    )
+   (name
+      "Welcome to Our Town"
+   )
 )
 (UGC_5011601
    (game_origin ugc2)
@@ -72187,6 +72849,9 @@
    (game_origin ugc2)
    (author
       "BBRiverBand"
+   )
+   (name
+      "Santa Fe"
    )
 )
 (UGC_5011676
@@ -73515,9 +74180,17 @@
    (drum_bank
       "sfx/rb1_kit_bank.milo"
    )
+   (name
+      "Brown Sugar"
+   )
+   (album_name
+      "Sticky Fingers"
+   )
+   (album_track_number 1)
    (covered_by
       "WaveGroup"
    )
+   (year_recorded 2007)
 )
 (comeasyouare_cover
    (game_origin lost_dlc)
@@ -73564,7 +74237,27 @@
       "WaveGroup"
    )
 )
+(GuitarsSUCKRB3verv2
+   (game_origin ugc1)
+   (name
+      "Guitars SUCK!"
+   )
+)
+(UGC_5005821
+   (game_origin ugc1)
+)
+(UGC_5011985
+   (game_origin ugc1)
+   (author
+      "JoeLasher"
+   )
+   (name
+      "Jam"
+   )
+)
 (aharddaysnight
+   (vocal_tonic_note 7)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -73574,8 +74267,16 @@
    (loading_phrase
       "Following a particularly grueling 24 hours, Ringo declared \qIt's been a hard day's night.\q The band loved Ringo's phrase and turned it into a classic song."
    )
+   (artist
+      "The Beatles"
+   )
+   (song_length 151670)
+   (genre rock)
+   (year_released 1964)
 )
 (andyourbirdcansing
+   (vocal_tonic_note 4)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -73585,8 +74286,16 @@
    (loading_phrase
       "Joe Walsh of The Eagles learned to play the iconic guitar riff on one guitar, unaware that it was actually double-tracked."
    )
+   (artist
+      "The Beatles"
+   )
+   (song_length 122507)
+   (genre rock)
+   (year_released 1966)
 )
 (backintheussr
+   (vocal_tonic_note 9)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -73596,8 +74305,23 @@
    (loading_phrase
       "This song pokes good natured fun at both the Beach Boys' \qCalifornia Girls\q and Chuck Berry's \qBack in the USA\q. The Beach Boys loved the song and sometimes played it in concert."
    )
+   (name
+      "Back in the U.S.S.R."
+   )
+   (artist
+      "The Beatles"
+   )
+   (song_length 165803)
+   (genre rock)
+   (year_released 1968)
+   (album_name
+      "The Beatles"
+   )
+   (album_track_number 1)
 )
 (birthday
+   (vocal_tonic_note 9)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -73643,8 +74367,20 @@
    (loading_phrase
       "The Beatles all loved the landmark rock 'n' roll movie \qThe Girl Can't Help It\q, and watched the movie in between writing and recording \qBirthday\q."
    )
+   (artist
+      "The Beatles"
+   )
+   (song_length 167865)
+   (genre rock)
+   (year_released 1968)
+   (album_name
+      "The Beatles"
+   )
+   (album_track_number 18)
 )
 (boys
+   (vocal_tonic_note 4)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -73654,8 +74390,16 @@
    (loading_phrase
       "Ringo sang the Shirelles tune \qBoys\q in his Cavern days with the Beatles, even though the lyrics had a feminine slant. He made up for that by changing a few words and giving the track a tougher feel."
    )
+   (artist
+      "The Beatles"
+   )
+   (song_length 134556)
+   (genre rock)
+   (year_released 1963)
 )
 (cantbuymelove
+   (vocal_tonic_note 0)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -73665,8 +74409,16 @@
    (loading_phrase
       "For one of the few times on a Beatles song the familiar harmonies aren't there. The band tried adding them while recording in a Paris studio, but quickly realised that the song just didn't need them."
    )
+   (artist
+      "The Beatles"
+   )
+   (song_length 134196)
+   (genre rock)
+   (year_released 1964)
 )
 (cometogether
+   (vocal_tonic_note 2)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -73676,8 +74428,16 @@
    (loading_phrase
       "When underground activist Timothy Leary ran for governor of California, he had a snappy campaign slogan: \qCome together.\q John liked that idea and tried to write a campaign song for him."
    )
+   (artist
+      "The Beatles"
+   )
+   (song_length 261900)
+   (genre rock)
+   (year_released 1969)
 )
 (daytripper
+   (vocal_tonic_note 4)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -73687,8 +74447,16 @@
    (loading_phrase
       "There was a great deal of mutual admiration between The Beatles and Jimi Hendrix, who performed this song on a BBC radio broadcast."
    )
+   (artist
+      "The Beatles"
+   )
+   (song_length 172125)
+   (genre rock)
+   (year_released 1965)
 )
 (dearprudence
+   (vocal_tonic_note 2)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -73698,8 +74466,19 @@
    (loading_phrase
       "Her name really was Prudence, and she really did need to come out to play. She and her sister, the actress Mia Farrow, were travelling companions on The Beatles' 1968 trip to India."
    )
+   (artist
+      "The Beatles"
+   )
+   (song_length 247164)
+   (genre rock)
+   (year_released 1968)
+   (album_name
+      "The Beatles"
+   )
 )
 (digapony
+   (vocal_tonic_note 9)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -73709,8 +74488,19 @@
    (loading_phrase
       "It was almost too cold and windy to play, and then the police showed up. The Beatles concert on the roof of the Apple offices brought traffic to a standstill in the West End of London on January 30, 1969."
    )
+   (name
+      "Dig a Pony"
+   )
+   (artist
+      "The Beatles"
+   )
+   (song_length 230225)
+   (genre rock)
+   (year_released 1970)
 )
 (dontletmedown
+   (vocal_tonic_note 4)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -73720,8 +74510,16 @@
    (loading_phrase
       "Keyboardist Billy Preston holds a unique honour: both sides of \qGet Back\q/\qDon't Let Me Down\q were credited to \qThe Beatles with Billy Preston\q, making him the only guest player ever named on a Beatles single."
    )
+   (artist
+      "The Beatles"
+   )
+   (song_length 222073)
+   (genre rock)
+   (year_released 1969)
 )
 (doyouwanttoknowasecret
+   (vocal_tonic_note 4)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -73731,8 +74529,19 @@
    (loading_phrase
       "Another Mersey act, Billy J. Kramer, had a UK hit with this song. The Beatles' version went to #2 in the US, making it the first Lennon/McCartney song to be both a Beatle and a non-Beatle hit."
    )
+   (name
+      "Do You Want to Know a Secret"
+   )
+   (artist
+      "The Beatles"
+   )
+   (song_length 120925)
+   (genre rock)
+   (year_released 1963)
 )
 (drivemycar
+   (vocal_tonic_note 2)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -73742,8 +74551,16 @@
    (loading_phrase
       "The original chorus to the song was the less catchy \qYou can buy me golden rings\q. For a few hours the song went nowhere... then the words \qdrive my car\q came to them after a tea break."
    )
+   (artist
+      "The Beatles"
+   )
+   (song_length 153082)
+   (genre rock)
+   (year_released 1965)
 )
 (eightdaysaweek
+   (vocal_tonic_note 2)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -73753,8 +74570,19 @@
    (loading_phrase
       "Paul came up with the idea for the song after asking the driver chauffeuring him if he'd been busy, who replied he'd been \qworking eight days a week\q."
    )
+   (name
+      "Eight Days a Week"
+   )
+   (artist
+      "The Beatles"
+   )
+   (song_length 166018)
+   (genre rock)
+   (year_released 1964)
 )
 (getback
+   (vocal_tonic_note 9)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -73764,8 +74592,16 @@
    (loading_phrase
       "'Get Back' was the first US Beatles single in full two-channel glory -- a good thing, since the long single version wouldn't be on an album until 1973."
    )
+   (artist
+      "The Beatles"
+   )
+   (song_length 192179)
+   (genre rock)
+   (year_released 1970)
 )
 (gettingbetter
+   (vocal_tonic_note 0)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -73775,8 +74611,16 @@
    (loading_phrase
       "During the writing sessions for \qGetting Better\q, Paul sang the optimistic title and John responded with the backup part, \qCan't get no worse.\q."
    )
+   (artist
+      "The Beatles"
+   )
+   (song_length 168642)
+   (genre psychadelic)
+   (year_released 1967)
 )
 (goodmorning
+   (vocal_tonic_note 9)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -73786,8 +74630,16 @@
    (loading_phrase
       "Most of the animal noises in \qGood Morning Good Morning\q came from the Abbey Road sound effects library. John wanted them arranged so that each animal heard was big enough to scare the one before."
    )
+   (artist
+      "The Beatles"
+   )
+   (song_length 168264)
+   (genre psychadelic)
+   (year_released 1967)
 )
 (hellogoodbye
+   (vocal_tonic_note 7)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -73797,8 +74649,16 @@
    (loading_phrase
       "The working title for \qHello Goodbye\q was \qHello, Hello\q."
    )
+   (artist
+      "The Beatles"
+   )
+   (song_length 213235)
+   (genre psychadelic)
+   (year_released 1967)
 )
 (helterskelter
+   (vocal_tonic_note 4)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -73808,8 +74668,19 @@
    (loading_phrase
       "One of the most famous parts of \qHelter Skelter\q was totally unplanned -- namely, Ringo's shout at the end: \qI've got blisters on my fingers!\q There's a good reason he did, since one of the working versions of \qHelter Skelter\q ran as long as 27 minutes."
    )
+   (artist
+      "The Beatles"
+   )
+   (song_length 272518)
+   (genre rock)
+   (year_released 1968)
+   (album_name
+      "The Beatles"
+   )
 )
 (herecomesthesun
+   (vocal_tonic_note 9)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -73819,8 +74690,19 @@
    (loading_phrase
       "It was a beautiful early spring day, and attending Apple business meetings was the last thing George wanted to do. So he played hooky and went to visit Eric Clapton, spending a relaxed morning in his garden and inspired this song."
    )
+   (name
+      "Here Comes the Sun"
+   )
+   (artist
+      "The Beatles"
+   )
+   (song_length 188855)
+   (genre rock)
+   (year_released 1969)
 )
 (heybulldog
+   (vocal_tonic_note 11)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -73877,8 +74759,16 @@
    (loading_phrase
       "The Beatles' new single, \qLady Madonna\q, needed a promotional film, but the group had better things to do than lip-sync. So during the shoot they recorded a new song, \qHey Bulldog\q."
    )
+   (artist
+      "The Beatles"
+   )
+   (song_length 203345)
+   (genre rock)
+   (year_released 1969)
 )
 (iamthewalrus
+   (vocal_tonic_note 9)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -73888,8 +74778,19 @@
    (loading_phrase
       "There are many layers of meaning in \qI Am the Walrus\q. But the main idea of a walrus character came from Lewis Carroll's poem \qThe Walrus & the Carpenter\q."
    )
+   (name
+      "I Am the Walrus"
+   )
+   (artist
+      "The Beatles"
+   )
+   (song_length 258652)
+   (genre psychadelic)
+   (year_released 1967)
 )
 (ifeelfine
+   (vocal_tonic_note 7)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -73899,8 +74800,16 @@
    (loading_phrase
       "Good English boys that they were, The Beatles loved their fish and chips. They even filmed themselves having dinner during a promo shoot for \qI Feel Fine\q."
    )
+   (artist
+      "The Beatles"
+   )
+   (song_length 143436)
+   (genre rock)
+   (year_released 1964)
 )
 (ifineededsomeone
+   (vocal_tonic_note 9)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -73910,16 +74819,32 @@
    (loading_phrase
       "The Byrds were apparently The Beatles' \qfab gear, fave rave American band\q. George paid them a tribute with the purposely jangly-guitar-sounding \qIf I Needed Someone\q."
    )
+   (artist
+      "The Beatles"
+   )
+   (song_length 146756)
+   (genre rock)
+   (year_released 1965)
 )
 (imemine
+   (vocal_tonic_note 9)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
    (drum_bank
       "sfx/tbrb_kit_bank.milo"
    )
+   (artist
+      "The Beatles"
+   )
+   (song_length 154546)
+   (genre rock)
+   (year_released 1970)
 )
 (imlookingthroughyou
+   (vocal_tonic_note 8)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -73929,8 +74854,16 @@
    (loading_phrase
       "On the stereo version of \I'm Looking Through You\q, there's a false start as John and Paul briefly mess up the acoustic guitar intro."
    )
+   (artist
+      "The Beatles"
+   )
+   (song_length 152720)
+   (genre rock)
+   (year_released 1965)
 )
 (isawherstandingthere
+   (vocal_tonic_note 4)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -73940,8 +74873,16 @@
    (loading_phrase
       "Leading off with one of the most famous count-ins in rock history, \qI Saw Her Standing There\q is one of a handful of Beatles songs that start this way. The others include \qTaxman\q, \qYer Blues\q, and \qSgt. Pepper's Lonely Hearts Club Band (Reprise)\q."
    )
+   (artist
+      "The Beatles"
+   )
+   (song_length 173894)
+   (genre rock)
+   (year_released 1963)
 )
 (ivegotafeeling
+   (vocal_tonic_note 9)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -73951,8 +74892,19 @@
    (loading_phrase
       "'I've Got a Feeling' was a rare 50/50 collaboration between John and Paul in The Beatles' later days, reflected in how it is sung: the two first alternate lead vocal duties, then unite their separate lyrics in harmony."
    )
+   (name
+      "I've Got a Feeling"
+   )
+   (artist
+      "The Beatles"
+   )
+   (song_length 221736)
+   (genre rock)
+   (year_released 1970)
 )
 (iwannabeyourman2
+   (vocal_tonic_note 4)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -73962,8 +74914,19 @@
    (loading_phrase
       "The band regretted mentioning that they loved Jelly Babies. Fans sent boxes of them to The Beatles, and before long the group was dodging candy showers on stages across England."
    )
+   (artist
+      "The Beatles"
+   )
+   (song_length 124080)
+   (genre rock)
+   (year_released 1963)
+   (album_name
+      "With the Beatles"
+   )
 )
 (iwanttoholdyourhand
+   (vocal_tonic_note 7)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -73973,8 +74936,19 @@
    (loading_phrase
       "Beatlemania didn't start with the first US single... or even the second, third or fourth. \qI Want to Hold Your Hand\q was their fifth US single; their previous four US singles originally failed to chart."
    )
+   (name
+      "I Want to Hold Your Hand"
+   )
+   (artist
+      "The Beatles"
+   )
+   (song_length 147717)
+   (genre rock)
+   (year_released 1963)
 )
-(iwantyoushessoheavy
+(iwantyou_tbrb
+   (vocal_tonic_note 9)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -73984,8 +74958,16 @@
    (loading_phrase
       "The sudden ending of \qI Want You (She's So Heavy)\q made a few hearts jump. John wanted a dramatic ending that hadn't been tried before, so he asked for the tape to be cut."
    )
+   (artist
+      "The Beatles"
+   )
+   (song_length 468851)
+   (genre rock)
+   (year_released 1969)
 )
 (lucyinthesky
+   (vocal_tonic_note 9)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -73995,8 +74977,19 @@
    (loading_phrase
       "Julian Lennon did a starry drawing of his classmate Lucy, with a title written across the top: \qLucy in the sky with diamonds\q, inspiring the song's fantastic images."
    )
+   (name
+      "Lucy in the Sky with Diamonds"
+   )
+   (artist
+      "The Beatles"
+   )
+   (song_length 221376)
+   (genre psychadelic)
+   (year_released 1967)
 )
 (octopusgarden
+   (vocal_tonic_note 4)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -74006,8 +74999,16 @@
    (loading_phrase
       "While Ringo was on holiday on Peter Sellers' yacht, the captain told Ringo that octopuses keep gardens beneath the sea, inspiring him to write a song about it."
    )
+   (artist
+      "The Beatles"
+   )
+   (song_length 174900)
+   (genre rock)
+   (year_released 1969)
 )
 (paperbackwriter
+   (vocal_tonic_note 7)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -74017,8 +75018,16 @@
    (loading_phrase
       "'Paperback Writer' was the first UK Beatles single that was not a love song."
    )
+   (artist
+      "The Beatles"
+   )
+   (song_length 142759)
+   (genre rock)
+   (year_released 1966)
 )
 (revolution
+   (vocal_tonic_note 11)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -74028,8 +75037,16 @@
    (loading_phrase
       "For \qRevolution\q,  the guitars were directly into the recording console, completely overloading the channel and creating grisly, heavily distorted guitar sounds."
    )
+   (artist
+      "The Beatles"
+   )
+   (song_length 206385)
+   (genre rock)
+   (year_released 1968)
 )
 (sgtpepperlittlehelp
+   (vocal_tonic_note 7)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -74039,8 +75056,19 @@
    (loading_phrase
       "Before \qWith a Little Help From My Friends\q had a full set of lyrics, John Lennon's original title for it was \qBad Finger Boogie\q."
    )
+   (name
+      "Sgt. Pepper's Lonely Hearts Club Band/With a Little Help from My Friends"
+   )
+   (artist
+      "The Beatles"
+   )
+   (song_length 287185)
+   (genre psychadelic)
+   (year_released 1967)
 )
 (something
+   (vocal_tonic_note 0)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -74050,8 +75078,16 @@
    (loading_phrase
       "Frank Sinatra never had much good to say about rock music, but George Harrison's \qSomething\q was one of the few contemporary songs he liked enough to cover."
    )
+   (artist
+      "The Beatles"
+   )
+   (song_length 186758)
+   (genre rock)
+   (year_released 1969)
 )
 (taxman
+   (vocal_tonic_note 2)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -74061,8 +75097,16 @@
    (loading_phrase
       "'One for you, nineteen for me' actually understates the case. George Harrison figured that for every 20 shillings (one pound) that The Beatles earned, they paid even MORE than 19 in taxes."
    )
+   (artist
+      "The Beatles"
+   )
+   (song_length 150884)
+   (genre rock)
+   (year_released 1966)
 )
 (theend
+   (vocal_tonic_note 9)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -74072,8 +75116,16 @@
    (loading_phrase
       "While recording \qAbbey Road\q, Paul and John had a lot of good ideas lying around that hadn't grown into full songs. The solution was to combine them with new material to form a classical style suite, an idea supported by George Martin. Not a bad way to cap off a recording career."
    )
+   (artist
+      "The Beatles"
+   )
+   (song_length 126996)
+   (genre rock)
+   (year_released 1969)
 )
 (tickettoride
+   (vocal_tonic_note 9)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -74083,8 +75135,19 @@
    (loading_phrase
       "Were The Beatles making a movie called 'Eight Arms to Hold You'? That's what it said on the US single of 'Ticket to Ride'. The film would eventually gain the punchier title 'Help!'"
    )
+   (name
+      "Ticket to Ride"
+   )
+   (artist
+      "The Beatles"
+   )
+   (song_length 185908)
+   (genre rock)
+   (year_released 1965)
 )
 (tomorrowwithin
+   (vocal_tonic_note 0)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -74094,8 +75157,16 @@
    (loading_phrase
       "This mash-up melds two of The Beatles' most spiritually inclined songs: \qWithin You Without You\q reflects George's absorption with meditation and John's \qTomorrow Never Knows\q draws its inspiration from \qThe Tibetan Book of the Dead\q."
    )
+   (artist
+      "The Beatles"
+   )
+   (song_length 144159)
+   (genre psychadelic)
+   (year_released 2006)
 )
 (twistandshout
+   (vocal_tonic_note 2)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -74105,8 +75176,19 @@
    (loading_phrase
       "'Twist and Shout' was recorded in only one take. George Martin attempted a second take, but because of the strain it put on John's vocal chords, the first take is the one you hear."
    )
+   (name
+      "Twist and Shout"
+   )
+   (artist
+      "The Beatles"
+   )
+   (song_length 157305)
+   (genre rock)
+   (year_released 1963)
 )
 (whilemyguitargentlyweeps
+   (vocal_tonic_note 9)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -74152,8 +75234,19 @@
    (loading_phrase
       "Very few guitarists could have walked into the studio with The Beatles, and Eric Clapton was the only one who ever did. George made friends with the young virtuoso guitarist, and invited him in for the solo."
    )
+   (artist
+      "The Beatles"
+   )
+   (song_length 295199)
+   (genre rock)
+   (year_released 1968)
+   (album_name
+      "The Beatles"
+   )
 )
 (yellowsubmarine
+   (vocal_tonic_note 6)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -74163,9 +75256,17 @@
    (loading_phrase
       "You'd never know by listening, but the Rolling Stones' Brian Jones clinked glasses during this song's instrumental break."
    )
+   (artist
+      "The Beatles"
+   )
+   (song_length 160157)
+   (genre rock)
+   (year_released 1966)
 )
 (abbeyroadmedley
    (game_origin beatles_dlc)
+   (vocal_tonic_note 9)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -74181,6 +75282,8 @@
 )
 (adayinthelife
    (game_origin beatles_dlc)
+   (vocal_tonic_note 7)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -74223,6 +75326,9 @@
    (keys_author
       "Erniewan"
    )
+   (name
+      "A Day in the Life"
+   )
    (artist
       "The Beatles"
    )
@@ -74232,6 +75338,8 @@
 )
 (allyouneedislove
    (game_origin beatles_dlc)
+   (vocal_tonic_note 7)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -74247,6 +75355,8 @@
 )
 (because
    (game_origin beatles_dlc)
+   (vocal_tonic_note 1)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -74305,11 +75415,16 @@
 )
 (beingformrkite
    (game_origin beatles_dlc)
+   (vocal_tonic_note 2)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
    (drum_bank
       "sfx/tbrb_kit_bank.milo"
+   )
+   (name
+      "Being for the Benefit of Mr. Kite!"
    )
    (artist
       "The Beatles"
@@ -74320,11 +75435,16 @@
 )
 (fixingahole
    (game_origin beatles_dlc)
+   (vocal_tonic_note 5)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
    (drum_bank
       "sfx/tbrb_kit_bank.milo"
+   )
+   (name
+      "Fixing a Hole"
    )
    (artist
       "The Beatles"
@@ -74335,6 +75455,8 @@
 )
 (girl
    (game_origin beatles_dlc)
+   (vocal_tonic_note 0)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -74350,6 +75472,8 @@
 )
 (goldencarrytheend
    (game_origin beatles_dlc)
+   (vocal_tonic_note 0)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -74365,6 +75489,8 @@
 )
 (hermajesty
    (game_origin beatles_dlc)
+   (vocal_tonic_note 2)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -74427,6 +75553,8 @@
 )
 (inmylife
    (game_origin beatles_dlc)
+   (vocal_tonic_note 9)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -74478,6 +75606,8 @@
 )
 (lovelyrita
    (game_origin beatles_dlc)
+   (vocal_tonic_note 11)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -74493,6 +75623,8 @@
 )
 (maxwells
    (game_origin beatles_dlc)
+   (vocal_tonic_note 2)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -74508,6 +75640,8 @@
 )
 (michelle
    (game_origin beatles_dlc)
+   (vocal_tonic_note 5)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -74523,6 +75657,8 @@
 )
 (norwegianwood
    (game_origin beatles_dlc)
+   (vocal_tonic_note 4)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -74538,6 +75674,8 @@
 )
 (nowhereman
    (game_origin beatles_dlc)
+   (vocal_tonic_note 4)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -74553,6 +75691,8 @@
 )
 (ohdarling
    (game_origin beatles_dlc)
+   (vocal_tonic_note 9)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -74604,11 +75744,16 @@
 )
 (polythenebathroom
    (game_origin beatles_dlc)
+   (vocal_tonic_note 4)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
    (drum_bank
       "sfx/tbrb_kit_bank.milo"
+   )
+   (name
+      "Polythene Pam/She Came In Through the Bathroom Window"
    )
    (artist
       "The Beatles"
@@ -74619,11 +75764,16 @@
 )
 (runforyourlife
    (game_origin beatles_dlc)
+   (vocal_tonic_note 2)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
    (drum_bank
       "sfx/tbrb_kit_bank.milo"
+   )
+   (name
+      "Run for Your Life"
    )
    (artist
       "The Beatles"
@@ -74634,6 +75784,8 @@
 )
 (sgtpepperreprise
    (game_origin beatles_dlc)
+   (vocal_tonic_note 5)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -74649,6 +75801,8 @@
 )
 (shesleavinghome
    (game_origin beatles_dlc)
+   (vocal_tonic_note 4)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -74664,6 +75818,8 @@
 )
 (sunkingmeanmr
    (game_origin beatles_dlc)
+   (vocal_tonic_note 4)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -74715,6 +75871,8 @@
 )
 (theword
    (game_origin beatles_dlc)
+   (vocal_tonic_note 2)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -74766,11 +75924,16 @@
 )
 (thinkforyourself
    (game_origin beatles_dlc)
+   (vocal_tonic_note 7)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
    (drum_bank
       "sfx/tbrb_kit_bank.milo"
+   )
+   (name
+      "Think for Yourself"
    )
    (artist
       "The Beatles"
@@ -74781,6 +75944,8 @@
 )
 (wait
    (game_origin beatles_dlc)
+   (vocal_tonic_note 6)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -74796,6 +75961,8 @@
 )
 (whatgoeson
    (game_origin beatles_dlc)
+   (vocal_tonic_note 4)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -74811,6 +75978,8 @@
 )
 (whenim64
    (game_origin beatles_dlc)
+   (vocal_tonic_note 1)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -74826,6 +75995,8 @@
 )
 (withinyouwithoutyou
    (game_origin beatles_dlc)
+   (vocal_tonic_note 1)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -74841,6 +76012,8 @@
 )
 (younevergive
    (game_origin beatles_dlc)
+   (vocal_tonic_note 9)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -74856,6 +76029,8 @@
 )
 (youwontseeme
    (game_origin beatles_dlc)
+   (vocal_tonic_note 9)
+   (song_tonality 0)
    (author
       "Harmonix"
    )
@@ -74987,6 +76162,9 @@
    (author
       "ThatAuthoringGroup"
    )
+   (name
+      "Incomplete and All Alone (ft. Joel Madden)"
+   )
 )
 (IAAA2x
    (game_origin ugc_lost)
@@ -75088,6 +76266,11 @@
 )
 (UGC_5000196
    (game_origin ugc_lost)
+   (name
+      "Talking in Your Sleep"
+   )
+   (year_released 1983)
+   (year_recorded 2009)
    (drum_bank sfx/rb2_kit01_bank.milo)
 )
 (UGC_5011046
@@ -75250,12 +76433,6 @@
    )
 )
 (UGC_5011968
-   (game_origin ugc_lost)
-   (author
-      "JoeLasher"
-   )
-)
-(UGC_5011985
    (game_origin ugc_lost)
    (author
       "JoeLasher"
@@ -75809,6 +76986,43 @@
       "Harmonix, Rhythm Authors"
    )
 )
+(bloodyvalentine
+   (artist
+      "mgk"
+   )
+   (author
+      "Harmonix, Rhythm Authors"
+   )
+)
+(coldheart
+   (name
+      "Cold Heart (PNAU Remix) (with Dua Lipa)"
+   )
+   (artist
+      "Elton John"
+   )
+   (loading_phrase
+      "This club-ready single blends together four of Elton John's much-loved tracks for a song about a relationship that's gone icy."
+   )
+   (author
+      "Harmonix, Rhythm Authors"
+   )
+)
+(getlucky
+   (name
+      "Get Lucky (Radio Edit) (ft. Pharrell Williams & Nile Rodgers)"
+   )
+   (album_name
+      ""
+   )
+   (album_track_number 1)
+   (loading_phrase
+      "When talking about his collaboration with Daft Punk in The Collaborators album, Pharrell Williams refers to the duo as 'the robots', often talking about them as though they had come from another planet, yet still able to write human music."
+   )
+   (author
+      "Harmonix, Rhythm Authors"
+   )
+)
 (highhopes
    (artist
       "Panic! at the Disco"
@@ -75816,6 +77030,22 @@
 )
 (inagaddadavida
    (genre psychadelic)
+)
+(ithinkimokay
+   (name
+      "I Think I'm OKAY (with YUNGBLUD & Travis Barker)"
+   )
+   (artist
+      "mgk"
+   )
+)
+(myexsbuild
+   (name
+      "my ex's best friend (ft. blackbear)"
+   )
+   (artist
+      "mgk"
+   )
 )
 (ourlovewillstillbethere
    (genre rock)
@@ -75887,6 +77117,16 @@
 )
 (thehandthatfnf
    (genre industrial)
+)
+(crazytrain_2002
+   (name
+      "Crazy Train"
+   )
+)
+(sisterchristian09
+   (name
+      "Sister Christian"
+   )
 )
 (stopandstare
    (song
@@ -78649,14 +79889,6 @@
       "Harmonix, Rhythm Authors"
    )
 )
-(coldheart
-   (loading_phrase
-      "This club-ready single blends together four of Elton John's much-loved tracks for a song about a relationship that's gone icy."
-   )
-   (author
-      "Harmonix, Rhythm Authors"
-   )
-)
 (cowboysfromhelllive
    (loading_phrase
       "There is an all-female Pantera cover band called 'Cowgirls from Hell'."
@@ -78705,14 +79937,6 @@
 (dopenose
    (loading_phrase
       "The \qDope Nose\q music video, directed by Marcos Siega, featured a Japanese motorcycle gang."
-   )
-   (author
-      "Harmonix, Rhythm Authors"
-   )
-)
-(getlucky
-   (loading_phrase
-      "When talking about his collaboration with Daft Punk in The Collaborators album, Pharrell Williams refers to the duo as 'the robots', often talking about them as though they had come from another planet, yet still able to write human music."
    )
    (author
       "Harmonix, Rhythm Authors"
@@ -79490,11 +80714,6 @@
    )
 )
 (blindinglights
-   (author
-      "Harmonix, Rhythm Authors"
-   )
-)
-(bloodyvalentine
    (author
       "Harmonix, Rhythm Authors"
    )
