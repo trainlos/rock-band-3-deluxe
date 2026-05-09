@@ -430,13 +430,13 @@
 (os_advanced "Advanced")
 (os_advanced_desc "Super-specific options the casual player might not need to mess around with")
 (os_anim_custom_banger "Band Attitude: Metal")
-(os_anim_custom_banger_desc "The band will act aggressively and the vocalist will always have the microphone in his hand")
+(os_anim_custom_banger_desc "The band will be aggressive and the vocalist will ditch the mic stand")
 (os_anim_custom_dramatic "Band Attitude: Goth")
-(os_anim_custom_dramatic_desc "The band will be somewhat slow in its movements and be somewhat dramatic")
+(os_anim_custom_dramatic_desc "The band will be slower and more dramatic")
 (os_anim_custom_rocker "Band Attitude: Rock")
 (os_anim_custom_rocker_desc "The band acts in a Rocking manner (Most songs use this attitude)")
 (os_anim_custom_spazz "Band Attitude: Punk")
-(os_anim_custom_spazz_desc "The band is very active on-stage.")
+(os_anim_custom_spazz_desc "The band is more active on-stage")
 (os_anim_custom_vanilla "Band Attitude: Vanilla")
 (os_anim_custom_vanilla_desc "The band's attitude will depend on the song's genre")
 (os_confirm_songcount_off "High Song Count Warning: OFF")
@@ -917,8 +917,7 @@
 (os_you_rock_off_desc "Don't show a \qYou Rock!\q message at the end of a song")
 (os_you_rock_on "You Rock: ON")
 (os_you_rock_on_desc "Shows a \qYou Rock!\q message at the end of a song, similar to Guitar Hero")
-(os_zspace "Z-Space")
-
+(os_zspace "Depth")
 ; In-game text
 (autoplay_enabled "AUTOPLAY")
 (award_flawless "Full Combo")
@@ -1580,7 +1579,10 @@
 (os_vocals_only "Vocals Only")
 (os_vocals_only_desc "Only Vocals can be in this slot")
 (os_yesreboot "Yes, reboot")
-
+(os_nav_controller "Navigation Pad")
+(os_nav_controller_desc "Assign a dedicated controller to navigate the menus")
+(os_nav_pad_disabled "[Disable]")
+(dx_nav_warn "This controller will be unable to drop-in again until you disable the navigation pad\n\nContinue?")
 
 ; Server Locale
 (go_overshell_register_online "Play on GoCentral")
@@ -2124,6 +2126,11 @@
 (exit_bye "Exit Game")
 (exit_no "Keep Rockin'")
 #endif
+
+; Trainer check messages
+(dx_no_trainer_real_bass "No Trainers for Pro Bass found in song.")
+(dx_no_trainer_real_guitar "No Trainers for Pro Guitar found in song.")
+(dx_no_trainer_real_keys "No Trainers for Pro Keys found in song.")
 
 ;ALWAYS KEEP THIS LAST SO IT LOADS ON TOP OF EVERYTHING ELSE
 #include dx_locale_sources.dta
