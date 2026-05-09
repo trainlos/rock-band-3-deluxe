@@ -52992,6 +52992,9 @@
    (drum_bank
       "sfx/rb2_kit01_bank.milo"
    )
+   (name
+      "Jumper"
+   )
    (genre alternative)
    (year_released 1997)
    (year_recorded 2009)
