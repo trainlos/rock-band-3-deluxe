@@ -77582,6 +77582,14 @@
       "Harmonix, Rhythm Authors"
    )
 )
+(takemehomecountry
+   (name
+      "Take Me Home, Country Roads"
+   )
+   (author
+      "Harmonix, Rhythm Authors"
+   )
+)
 (themanwhosoldtheworld
    (name
       "The Man Who Sold the World (Unplugged)"
@@ -82280,11 +82288,6 @@
    )
 )
 (sweaterweather
-   (author
-      "Harmonix, Rhythm Authors"
-   )
-)
-(takemehomecountry
    (author
       "Harmonix, Rhythm Authors"
    )
