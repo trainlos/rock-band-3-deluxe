@@ -10250,6 +10250,7 @@
    (drum_bank
       "sfx/rb1_kit_bank.milo"
    )
+   (genre indierock)
    (extra_authoring disc_update)
    (upgrade_version 1)
    (rank
@@ -76975,9 +76976,6 @@
    (author
       "ThatAuthoringGroup"
    )
-)
-(reptilla
-   (genre indierock)
 )
 (areyouexperienced
    (genre psychadelic)
