@@ -57992,6 +57992,8 @@
 )
 (UGC_5004173
    (game_origin ugc1)
+   (vocal_tonic_note 10)
+   (song_tonality 1)
    (author
       "RockGamer"
    )
@@ -58695,6 +58697,8 @@
 )
 (UGC_5004522
    (game_origin ugc1)
+   (vocal_tonic_note 0)
+   (song_tonality 0)
    (author
       "Rhythm Authors"
    )
@@ -59366,6 +59370,8 @@
 )
 (UGC_5004853
    (game_origin ugc1)
+   (vocal_tonic_note 9)
+   (song_tonality 1)
    (author
       "RockGamer"
    )
