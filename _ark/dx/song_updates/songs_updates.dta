@@ -25420,6 +25420,11 @@
       "sfx/rb2_kit01_bank.milo"
    )
    (genre rock)
+   (year_released 2004)
+   (album_name
+      "The SpongeBob SquarePants Movie: Music from the Movie and More..."
+   )
+   (album_track_number 16)
    (song
       (vocal_parts 3)
    )

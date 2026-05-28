@@ -120,7 +120,7 @@
 (dropitlikeitshot (name "Drop It Like It's Hot (ft. Pharrell)") (genre hiphoprap))
 (embedded (artist "Job for a Cowboy"))
 (eminencefront (genre rock))
-(employeeofthemonth (genre rock))
+(employeeofthemonth (genre rock) (year_released 2004) (album_name "The SpongeBob SquarePants Movie: Music from the Movie and More...") (album_track_number 16))
 (emptywalls (album_name "Elect the Dead"))
 (enditonthis (genre reggaeska))
 (everfalleninlove (name "Ever Fallen in Love (With Someone You Shouldn't've)") (album_name "Love Bites") (album_track_number 2) (master 0) (covered_by "WaveGroup") (album_art TRUE) (year_recorded 2007))
