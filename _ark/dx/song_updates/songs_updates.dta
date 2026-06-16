@@ -77840,6 +77840,12 @@
       "Harmonix"
    )
 )
+(lastdance
+   (vocal_gender male)
+   (author
+      "Harmonix"
+   )
+)
 (meenamora
    (genre latin)
    (author
@@ -81547,11 +81553,6 @@
    )
 )
 (lasso
-   (author
-      "Harmonix"
-   )
-)
-(lastdance
    (author
       "Harmonix"
    )
