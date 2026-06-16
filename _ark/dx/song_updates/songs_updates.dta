@@ -24485,6 +24485,8 @@
       (keys 269)
       (real_keys 269)
       (band 183)
+      (real_guitar 319)
+      (real_bass 283)
    )
    (version 29)
    (solo
@@ -24492,6 +24494,16 @@
    )
    (keys_author
       "FujiSkunk & StackOverflow0x"
+   )
+   (upgrade_version 1)
+   (real_guitar_tuning
+      (0 0 0 0 0 0)
+   )
+   (real_bass_tuning
+      (0 0 0 0)
+   )
+   (strings_author
+      "Aloquendiar, JDK"
    )
    (song_id 1005365)
    (song_length 291818)
@@ -40017,6 +40029,25 @@
       (vocal_parts 2)
    )
    (extra_authoring disc_update)
+   (upgrade_version 1)
+   (rank
+      (drum 491)
+      (guitar 362)
+      (bass 262)
+      (vocals 130)
+      (real_guitar 195)
+      (real_bass 170)
+      (band 425)
+   )
+   (real_guitar_tuning
+      (-7 0 0 0 0 0)
+   )
+   (real_bass_tuning
+      (-7 0 0 0)
+   )
+   (strings_author
+      "MatthNerd"
+   )
    (author
       "Harmonix"
    )
@@ -43363,8 +43394,38 @@
    )
    (song
       (vocal_parts 3)
+      (tracks
+         (
+            (drum
+               (0 1 2 3 4)
+            )
+            (bass 5)
+            (guitar
+               (6 7)
+            )
+            (vocals
+               (8 9)
+            )
+            (keys
+               (10 11)
+            )
+         )
+      )
    )
    (extra_authoring disc_update)
+   (rank
+      (drum 186)
+      (guitar 222)
+      (bass 236)
+      (vocals 170)
+      (keys 215)
+      (real_keys 215)
+      (band 209)
+   )
+   (version 30)
+   (keys_author
+      "Stock123"
+   )
    (author
       "Harmonix"
    )
@@ -50294,6 +50355,9 @@
    (drum_bank
       "sfx/rb2_kit01_bank.milo"
    )
+   (artist
+      "The James Rocket"
+   )
    (song
       (vocal_parts 3)
    )
@@ -51902,6 +51966,9 @@
    )
    (drum_bank
       "sfx/rb2_kit01_bank.milo"
+   )
+   (artist
+      "The James Rocket"
    )
    (extra_authoring disc_update)
 )
@@ -61480,6 +61547,9 @@
    (drum_bank
       "sfx/rb2_kit01_bank.milo"
    )
+   (artist
+      "The Racer"
+   )
    (extra_authoring disc_update)
 )
 (UGC_5005365
@@ -62790,6 +62860,28 @@
    )
    (artist
       "B.o.B"
+   )
+   (extra_authoring disc_update)
+   (upgrade_version 1)
+   (rank
+      (drum 233)
+      (guitar 130)
+      (bass 129)
+      (vocals 193)
+      (keys 150)
+      (real_guitar 156)
+      (real_bass 154)
+      (real_keys 177)
+      (band 175)
+   )
+   (real_guitar_tuning
+      (0 0 0 0 0 0)
+   )
+   (real_bass_tuning
+      (0 0 0 0)
+   )
+   (strings_author
+      "JDK"
    )
    (author
       "Harmonix"
@@ -69574,6 +69666,10 @@
    (author
       "Rhythm Authors"
    )
+   (artist
+      "Skye Rocket"
+   )
+   (vocal_gender female)
 )
 (UGC_5008213
    (game_origin ugc2)
@@ -72462,6 +72558,10 @@
    (author
       "RockGamer"
    )
+   (album_name
+      "Shout It Loud & Clear"
+   )
+   (album_track_number 1)
 )
 (UGC_5010498
    (game_origin ugc2)
@@ -72515,6 +72615,9 @@
    (game_origin ugc2)
    (author
       "OffbeatEntertainment"
+   )
+   (artist
+      "Tora Woloshin"
    )
 )
 (UGC_5010539
@@ -73208,6 +73311,11 @@
    (author
       "Rhythm Authors"
    )
+   (year_released 2013)
+   (album_name
+      "The Real Thing"
+   )
+   (album_track_number 3)
 )
 (UGC_5011217
    (game_origin ugc2)
