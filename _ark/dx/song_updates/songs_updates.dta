@@ -35538,8 +35538,41 @@
    )
    (song
       (vocal_parts 3)
+      (tracks
+         (
+            (drum
+               (0 1 2)
+            )
+            (bass
+               (3)
+            )
+            (guitar
+               (4 5)
+            )
+            (vocals
+               (6 7)
+            )
+            (keys
+               (8 9)
+            )
+         )
+      )
+      (crowd_channels 10 11)
    )
    (extra_authoring disc_update)
+   (rank
+      (drum 280)
+      (guitar 420)
+      (bass 258)
+      (vocals 168)
+      (keys 337)
+      (real_keys 372)
+      (band 300)
+   )
+   (version 30)
+   (keys_author
+      "BowlsforRick"
+   )
    (song_id 1005548)
    (preview 40400 70400)
    (song_length 347727)
@@ -79929,6 +79962,46 @@
       "Harmonix, Rhythm Authors"
    )
 )
+(spiders
+   (extra_authoring disc_update)
+   (song
+      (tracks
+         (
+            (drum
+               (0 1)
+            )
+            (bass
+               (2 3)
+            )
+            (guitar
+               (4 5)
+            )
+            (vocals
+               (6 7)
+            )
+            (keys
+               (8 9)
+            )
+         )
+      )
+   )
+   (rank
+      (drum 163)
+      (guitar 144)
+      (bass 155)
+      (vocals 342)
+      (keys 89)
+      (real_keys 92)
+      (band 189)
+   )
+   (version 30)
+   (keys_author
+      "BowlsforRick"
+   )
+   (author
+      "Harmonix, Rhythm Authors"
+   )
+)
 (stacysmom
    (extra_authoring disc_update)
    (song
@@ -81755,11 +81828,6 @@
    )
 )
 (rockandrollhoochiekoo
-   (author
-      "Harmonix, Rhythm Authors"
-   )
-)
-(spiders
    (author
       "Harmonix, Rhythm Authors"
    )
