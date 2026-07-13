@@ -1,8 +1,3 @@
-;LOAD PTBR LOCALE, OTHERWISE TEXTOS EN ESPAÑOL
-#ifdef DX_PTBR
-#include ../ptb/locale/locale_updates_keep.dta
-#include ../ptb/dx/dx_locale_updates.dta
-#else
 ;load this first lol
 #include ../../../dx/locale/dx_locale_updates.dta
 ; Additional extras
@@ -437,15 +432,15 @@
 (os_songdelay_off_desc "No agrega dos segundos antes de cargar una canción, pero no es necesario en Xbox")
 (os_songdelay_on_desc "Agrega dos segundos antes de cargar una canción, pero no es necesario en Xbox")
 #endif
-(os_anim_custom_rocker "Actitud de Banda: Rock")
+(os_anim_custom_rocker "Actitud de banda: Rock")
 (os_anim_custom_rocker_desc "La banda actúa de manera Rockera (La mayoría de temas usan esta actitud)")
-(os_anim_custom_spazz "Actitud de Banda: Punk")
+(os_anim_custom_spazz "Actitud de banda: Punk")
 (os_anim_custom_spazz_desc "La banda actúa mas activa y animada")
-(os_anim_custom_dramatic "Actitud de Banda: Gótica")
+(os_anim_custom_dramatic "Actitud de banda: Gótica")
 (os_anim_custom_dramatic_desc "La banda será algo lenta en sus movimientos, siendo algo dramática.")
-(os_anim_custom_banger "Actitud de Banda: Metal")
+(os_anim_custom_banger "Actitud de banda: Metal")
 (os_anim_custom_banger_desc "La banda actuara agresivamente y el vocalista no tendrá un soporte de micrófono")
-(os_anim_custom_vanilla "Actitud de Banda: Vanilla")
+(os_anim_custom_vanilla "Actitud de banda: Vanilla")
 (os_anim_custom_vanilla_desc "La banda cambiara su actitud según el genero del tema")
 (os_splash_off "Pantalla de Título: No")
 (os_splash_off_desc "Omite la pantalla de titulo al iniciar")
@@ -454,23 +449,23 @@
 
 ; Mandos
 (os_controller_input_offsets "Calibración de controles...")
-(os_controller_input_offsets_desc "Ajusta el desfase individual de controles, útil para instrumentos modeados")
+(os_controller_input_offsets_desc "Ajusta la compensación individual de controles, útil para instrumentos modeados")
 (os_current_controller "Control actual:\n")
-(os_all_offsets_vanilla "[REINICIAR VALORES]")
+(os_all_offsets_vanilla "[REVERTIR VALORES]")
 #ifdef HX_XBOX
-(os_all_offsets_vanilla_desc "Reinicia todo a los valores por defecto, útil si estas usando instrumentos de Xbox 360 sin modificaciones")
+(os_all_offsets_vanilla_desc "Revierte todo a los valores por defecto, útil si estas usando instrumentos de Xbox 360 sin modificaciones")
 #endif
 #ifdef HX_PS3
-(os_all_offsets_vanilla_desc "Reinicia todo a los valores por defecto, útil si estas usando instrumentos de PS3 sin modificaciones")
+(os_all_offsets_vanilla_desc "Revierte todo a los valores por defecto, útil si estas usando instrumentos de PS3 sin modificaciones")
 #endif
 #ifdef HX_WII
-(os_all_offsets_vanilla_desc "Reinicia todo a los valores por defecto, útil si estas usando instrumentos de Wii sin modificaciones")
+(os_all_offsets_vanilla_desc "Revierte todo a los valores por defecto, útil si estas usando instrumentos de Wii sin modificaciones")
 #endif
 (os_all_offsets_custom_optimal "[AJUSTAR PARA INST. MODEADOS]")
 #ifdef HX_WII
 (os_all_offsets_custom_optimal_desc "esto no hace nada en wii, perdon xd")
 #else
-(os_all_offsets_custom_optimal_desc "Ajusta la calibración para instrumentos modeados de baja latencia. Solo afecta controles comúnmente imitados")
+(os_all_offsets_custom_optimal_desc "Ajusta la compensación para instrumentos modeados de baja latencia. Solo afecta controles comúnmente imitados")
 #endif
 (os_pad_gamepad "-  Mando: %d  +")
 (os_pad_gamepad_desc "Mando estándar")
@@ -798,7 +793,7 @@
 (os_precise_percent_off_desc "El porcentaje que se muestra en la pantalla de resultados se redondea hacia abajo como en vanilla")
 (os_prefix_disable "Prefijos: No")
 (os_prefix_enable "Prefijos: Sí")
-(os_reset "[Reiniciar]")
+(os_reset "[Revertir]")
 (os_score "Puntaje")
 (os_scoreboard_pos "Posición del Puntaje")
 (os_score_desc "Posicionamiento del puntaje y las estrellas")
@@ -1327,7 +1322,7 @@
 (os_ghdrums "Batería de Guitar Hero")
 (os_ghguitar "Guitarra de Guitar Hero")
 (os_gotit "Entendido")
-(os_instreset "[Reiniciar el tipo de Instrumento]")
+(os_instreset "[Revertir el tipo de Instrumento]")
 (os_instreset_desc "Revierte todos los controladores a la configuración normal")
 (os_instrumentswap "Cambiar Instrumento")
 (os_instrumentswap_desc "Cambia a otro puesto, para fingir que estas tocando en otro instrumento. Ayuda para cumplir otros logros y entrar ciertas sesiones en linea")
@@ -1479,6 +1474,21 @@
 (rb4aquafusion "Fusión de RB4")
 (rb4aquagoth "RB4 Gótico")
 
+; System Lag Offsets
+(os_system_lag_offsets "Calibración interna...")
+(os_system_lag_offsets_desc "Ajusta los valores de compensación de desfase internos. No se recomienda al menos que sepas lo que estas haciendo")
+(os_vanilla_offsets "[REVERTIR VALORES]")
+(os_vanilla_offsets_desc "Revierte los valores de desfase a por defecto")
+(os_corrected_offsets "[VALORES CORREGIDOS]")
+(os_corrected_offsets_desc "Ajusta la compensación interna para que 0/0 si sea 0/0\n(\qReal Lag Values\q en calconvert)")
+(os_system_lag_offsets_help "Tus valores de calibración se ajustaran a esto y permanecerán")
+(os_syslag_audio "-  Audio: %d  +")
+(os_syslag_video "-  Vídeo: %d  +")
+(os_syslag_audio_desc "Latencia de audio interna: ")
+(os_syslag_video_desc "\nLatencia de vídeo interna: ")
+(os_usrlag_audio_desc "\nLatencia de audio de usuario: ")
+(os_usrlag_video_desc "\nLatencia de audio de usuario: ")
+
 ; Track themes
 (_none "[Ninguno]")
 (color_msg "Color Actual:\n")
@@ -1605,7 +1615,7 @@
 (os_moreoptions_desc "Ajusta cosas mas especificas como la Actitud de banda, Vídeos Musicales y más")
 (os_multiring "Anillo del Multiplicador")
 (os_multiring_desc "Anillo debajo de la pista que muestra el multiplicador actual (x4)")
-(os_noang "[Reiniciar]")
+(os_noang "[Revertir]")
 (os_noang_desc "Reinicia el ángulo de pista en solitario")
 (os_nosus "[Sin Sostenidos]")
 (os_odbar "Barra de Energía")
@@ -1670,8 +1680,8 @@
 (os_voxod_desc "Fondo de Sobrecarga para Vocales")
 (realtime_customize "[Previs. Apariencia]")
 (realtime_customize_desc "Prueba tus cambios en tiempo real")
-(restart_customizer "[Reiniciar Apariencia]")
-(restart_customizer_desc "Reiniciar el tema actual desde el principio")
+(restart_customizer "[Revertir Apariencia]")
+(restart_customizer_desc "Revertir el tema actual desde el principio")
 (save_theme "[Guardar Apariencia]")
 (save_track_theme "Ingresa el nombre de tu apariencia aquí")
 (save_track_theme_desc "Por favor, no uses espacios o caracteres especiales en tu nombre")
@@ -2192,11 +2202,11 @@
 (os_venue_swap_off_desc "El escenario será el mismo durante todo el repertorio")
 (os_venue_swap_on "Rotar Escenarios: Sí")
 (os_venue_swap_on_desc "El escenario cambiara cada tema en un repertorio")
-(os_all_instruments_guitar "Todos los instrumentos: Guitarra")
+(os_all_instruments_guitar "Cantante: Guitarrista")
 (os_all_instruments_guitar_desc "Tendrás un guitarrista, bajista y tecladista en el escenario.\nEl guitarrista cantará")
-(os_all_instruments_bass "Todos los instrumentos: Bajista")
+(os_all_instruments_bass "Cantante: Bajista")
 (os_all_instruments_bass_desc "Tendrás un guitarrista, bajista y tecladista en el escenario.\nEl bajista cantará")
-(os_all_instruments_off "Todos los instrumentos: Desactivado")
+(os_all_instruments_off "Cantante: Vocalista")
 (os_all_instruments_off_desc "Se mostrarán los integrantes por defecto en el escenario")
 
 ; New Overshell Messages
@@ -2318,7 +2328,6 @@
 #include dx_locale_esl_tips.dta
 #include dx_locale_esl_sections.dta
 #include dx_locale_updates_assets.dta
-#endif
 
 #include ../../../dx/locale/dx_version.dta
 

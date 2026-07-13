@@ -394,7 +394,7 @@
 (dx_missing_tele_patch "Hey, you ever notice how your characters' instruments, hair, and mics randomly teleport around? This can now be fixed!\n\nVisit rb3dx.milohax.org/downloads and scroll down to \qTeleporting Glitch Fix Patch\q to find out how!")
 (dx_missing_tele2_patch "Hey, there has been an update to the instrument teleportation patch.\nIt is HIGHLY recommended to reinstall.\nApologies for the inconvience.\n\nVisit rb3dx.milohax.org/downloads and scroll down to \qTeleporting Glitch Fix Patch\q")
 (dx_remove_tele_patch "Hey, we noticed you have the Teleporting Glitch Fix Patch installed!\nThis patch is known to cause major issues when playing on a real PS3, and is intended to be used on RPCS3 only.\n\nJoin the MiloHax Discord server (discord.gg/milohax) for assistance in removing the patch.")
-(localize_it "Hello! ¡Hola! Bonjour! Hallo! Ciao!\nDo you speak another language?\nWant to help translate Deluxe text to your native language?\nJoin the MiloHax discord to help join the fight against English oppressors!\nRock Band 3 supported languages: Spanish, French, German, Italian.")
+(localize_it "Hello! ¡Hola! Bonjour! Hallo! Ciao!\nDo you speak another language?\nWant to help translate Deluxe text to your native language?\nJoin the MiloHax discord to help join the fight against English oppressors!\nRB3DX supported languages: Spanish, Portuguese (Brazil), French, German, Italian.")
 (no_track_theme_found "Track Theme failed to load from disk!")
 (os_iunderstand "I Understand")
 (os_takemeback "Take Me Back")
@@ -1780,6 +1780,21 @@
 (rb4alt_yellow "RB4 Alt Yellow")
 (rb4aquafusion "RB4 Fusion")
 (rb4aquagoth "RB4 Goth")
+
+; System Lag Offsets
+(os_system_lag_offsets "System Lag Offsets...")
+(os_system_lag_offsets_desc "Adjust the internal lag values, not recommended unless you know what this does and why you'd need to change them")
+(os_vanilla_offsets "[RESET TO VANILLA]")
+(os_vanilla_offsets_desc "Set the offsets back to the vanilla values")
+(os_corrected_offsets "[SET TO CORRECTED]")
+(os_corrected_offsets_desc "Set the offsets to make 0/0 calibration truly 0/0\n(\qReal Lag Values\q in calconvert)")
+(os_system_lag_offsets_help "Your calibration settings will automatically adjust to this and stay adjusted")
+(os_syslag_audio "-  Audio: %d  +")
+(os_syslag_video "-  Video: %d  +")
+(os_syslag_audio_desc "System Audio Lag: ")
+(os_syslag_video_desc "\nSystem Video Lag: ")
+(os_usrlag_audio_desc "\nUser Audio Lag: ")
+(os_usrlag_video_desc "\nUser Video Lag: ")
 
 ; Track themes
 (_none "[None]")
