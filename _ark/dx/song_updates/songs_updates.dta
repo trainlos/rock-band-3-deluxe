@@ -75405,12 +75405,8 @@
    (loading_phrase
       "Following a particularly grueling 24 hours, Ringo declared \qIt's been a hard day's night.\q The band loved Ringo's phrase and turned it into a classic song."
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 151670)
    (genre rock)
-   (year_released 1964)
 )
 (andyourbirdcansing
    (vocal_tonic_note 4)
@@ -75424,12 +75420,8 @@
    (loading_phrase
       "Joe Walsh of The Eagles learned to play the iconic guitar riff on one guitar, unaware that it was actually double-tracked."
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 122507)
    (genre rock)
-   (year_released 1966)
 )
 (backintheussr
    (vocal_tonic_note 9)
@@ -75446,12 +75438,8 @@
    (name
       "Back in the U.S.S.R."
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 165803)
    (genre rock)
-   (year_released 1968)
    (album_name
       "The Beatles"
    )
@@ -75505,12 +75493,8 @@
    (loading_phrase
       "The Beatles all loved the landmark rock 'n' roll movie \qThe Girl Can't Help It\q, and watched the movie in between writing and recording \qBirthday\q."
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 167865)
    (genre rock)
-   (year_released 1968)
    (album_name
       "The Beatles"
    )
@@ -75528,12 +75512,8 @@
    (loading_phrase
       "Ringo sang the Shirelles tune \qBoys\q in his Cavern days with the Beatles, even though the lyrics had a feminine slant. He made up for that by changing a few words and giving the track a tougher feel."
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 134556)
    (genre rock)
-   (year_released 1963)
 )
 (cantbuymelove
    (vocal_tonic_note 0)
@@ -75547,12 +75527,8 @@
    (loading_phrase
       "For one of the few times on a Beatles song the familiar harmonies aren't there. The band tried adding them while recording in a Paris studio, but quickly realised that the song just didn't need them."
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 134196)
    (genre rock)
-   (year_released 1964)
 )
 (cometogether
    (vocal_tonic_note 2)
@@ -75566,12 +75542,8 @@
    (loading_phrase
       "When underground activist Timothy Leary ran for governor of California, he had a snappy campaign slogan: \qCome together.\q John liked that idea and tried to write a campaign song for him."
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 261900)
    (genre rock)
-   (year_released 1969)
 )
 (daytripper
    (vocal_tonic_note 4)
@@ -75585,12 +75557,8 @@
    (loading_phrase
       "There was a great deal of mutual admiration between The Beatles and Jimi Hendrix, who performed this song on a BBC radio broadcast."
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 172125)
    (genre rock)
-   (year_released 1965)
 )
 (dearprudence
    (vocal_tonic_note 2)
@@ -75604,12 +75572,8 @@
    (loading_phrase
       "Her name really was Prudence, and she really did need to come out to play. She and her sister, the actress Mia Farrow, were travelling companions on The Beatles' 1968 trip to India."
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 247164)
    (genre rock)
-   (year_released 1968)
    (album_name
       "The Beatles"
    )
@@ -75629,12 +75593,8 @@
    (name
       "Dig a Pony"
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 230225)
    (genre rock)
-   (year_released 1970)
 )
 (dontletmedown
    (vocal_tonic_note 4)
@@ -75648,12 +75608,8 @@
    (loading_phrase
       "Keyboardist Billy Preston holds a unique honour: both sides of \qGet Back\q/\qDon't Let Me Down\q were credited to \qThe Beatles with Billy Preston\q, making him the only guest player ever named on a Beatles single."
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 222073)
    (genre rock)
-   (year_released 1969)
 )
 (doyouwanttoknowasecret
    (vocal_tonic_note 4)
@@ -75670,12 +75626,8 @@
    (name
       "Do You Want to Know a Secret"
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 120925)
    (genre rock)
-   (year_released 1963)
 )
 (drivemycar
    (vocal_tonic_note 2)
@@ -75689,12 +75641,8 @@
    (loading_phrase
       "The original chorus to the song was the less catchy \qYou can buy me golden rings\q. For a few hours the song went nowhere... then the words \qdrive my car\q came to them after a tea break."
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 153082)
    (genre rock)
-   (year_released 1965)
 )
 (eightdaysaweek
    (vocal_tonic_note 2)
@@ -75711,12 +75659,8 @@
    (name
       "Eight Days a Week"
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 166018)
    (genre rock)
-   (year_released 1964)
 )
 (getback
    (vocal_tonic_note 9)
@@ -75730,12 +75674,8 @@
    (loading_phrase
       "'Get Back' was the first US Beatles single in full two-channel glory -- a good thing, since the long single version wouldn't be on an album until 1973."
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 192179)
    (genre rock)
-   (year_released 1970)
 )
 (gettingbetter
    (vocal_tonic_note 0)
@@ -75749,12 +75689,8 @@
    (loading_phrase
       "During the writing sessions for \qGetting Better\q, Paul sang the optimistic title and John responded with the backup part, \qCan't get no worse.\q."
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 168642)
    (genre psychadelic)
-   (year_released 1967)
 )
 (goodmorning
    (vocal_tonic_note 9)
@@ -75768,12 +75704,8 @@
    (loading_phrase
       "Most of the animal noises in \qGood Morning Good Morning\q came from the Abbey Road sound effects library. John wanted them arranged so that each animal heard was big enough to scare the one before."
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 168264)
    (genre psychadelic)
-   (year_released 1967)
 )
 (hellogoodbye
    (vocal_tonic_note 7)
@@ -75787,12 +75719,8 @@
    (loading_phrase
       "The working title for \qHello Goodbye\q was \qHello, Hello\q."
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 213235)
    (genre psychadelic)
-   (year_released 1967)
 )
 (helterskelter
    (vocal_tonic_note 4)
@@ -75806,12 +75734,8 @@
    (loading_phrase
       "One of the most famous parts of \qHelter Skelter\q was totally unplanned -- namely, Ringo's shout at the end: \qI've got blisters on my fingers!\q There's a good reason he did, since one of the working versions of \qHelter Skelter\q ran as long as 27 minutes."
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 272518)
    (genre rock)
-   (year_released 1968)
    (album_name
       "The Beatles"
    )
@@ -75831,12 +75755,8 @@
    (name
       "Here Comes the Sun"
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 188855)
    (genre rock)
-   (year_released 1969)
 )
 (heybulldog
    (vocal_tonic_note 11)
@@ -75897,12 +75817,8 @@
    (loading_phrase
       "The Beatles' new single, \qLady Madonna\q, needed a promotional film, but the group had better things to do than lip-sync. So during the shoot they recorded a new song, \qHey Bulldog\q."
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 203345)
    (genre rock)
-   (year_released 1969)
 )
 (iamthewalrus
    (vocal_tonic_note 9)
@@ -75919,12 +75835,8 @@
    (name
       "I Am the Walrus"
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 258652)
    (genre psychadelic)
-   (year_released 1967)
 )
 (ifeelfine
    (vocal_tonic_note 7)
@@ -75938,12 +75850,8 @@
    (loading_phrase
       "Good English boys that they were, The Beatles loved their fish and chips. They even filmed themselves having dinner during a promo shoot for \qI Feel Fine\q."
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 143436)
    (genre rock)
-   (year_released 1964)
 )
 (ifineededsomeone
    (vocal_tonic_note 9)
@@ -75957,12 +75865,8 @@
    (loading_phrase
       "The Byrds were apparently The Beatles' \qfab gear, fave rave American band\q. George paid them a tribute with the purposely jangly-guitar-sounding \qIf I Needed Someone\q."
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 146756)
    (genre rock)
-   (year_released 1965)
 )
 (imemine
    (vocal_tonic_note 9)
@@ -75973,12 +75877,8 @@
    (drum_bank
       "sfx/tbrb_kit_bank.milo"
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 154546)
    (genre rock)
-   (year_released 1970)
 )
 (imlookingthroughyou
    (vocal_tonic_note 8)
@@ -75992,12 +75892,8 @@
    (loading_phrase
       "On the stereo version of \I'm Looking Through You\q, there's a false start as John and Paul briefly mess up the acoustic guitar intro."
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 152720)
    (genre rock)
-   (year_released 1965)
 )
 (isawherstandingthere
    (vocal_tonic_note 4)
@@ -76011,12 +75907,8 @@
    (loading_phrase
       "Leading off with one of the most famous count-ins in rock history, \qI Saw Her Standing There\q is one of a handful of Beatles songs that start this way. The others include \qTaxman\q, \qYer Blues\q, and \qSgt. Pepper's Lonely Hearts Club Band (Reprise)\q."
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 173894)
    (genre rock)
-   (year_released 1963)
 )
 (ivegotafeeling
    (vocal_tonic_note 9)
@@ -76033,12 +75925,8 @@
    (name
       "I've Got a Feeling"
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 221736)
    (genre rock)
-   (year_released 1970)
 )
 (iwannabeyourman2
    (vocal_tonic_note 4)
@@ -76052,12 +75940,8 @@
    (loading_phrase
       "The band regretted mentioning that they loved Jelly Babies. Fans sent boxes of them to The Beatles, and before long the group was dodging candy showers on stages across England."
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 124080)
    (genre rock)
-   (year_released 1963)
    (album_name
       "With the Beatles"
    )
@@ -76077,12 +75961,8 @@
    (name
       "I Want to Hold Your Hand"
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 147717)
    (genre rock)
-   (year_released 1963)
 )
 (iwantyou_tbrb
    (vocal_tonic_note 9)
@@ -76096,12 +75976,8 @@
    (loading_phrase
       "The sudden ending of \qI Want You (She's So Heavy)\q made a few hearts jump. John wanted a dramatic ending that hadn't been tried before, so he asked for the tape to be cut."
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 468851)
    (genre rock)
-   (year_released 1969)
 )
 (lucyinthesky
    (vocal_tonic_note 9)
@@ -76118,12 +75994,8 @@
    (name
       "Lucy in the Sky with Diamonds"
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 221376)
    (genre psychadelic)
-   (year_released 1967)
 )
 (octopusgarden
    (vocal_tonic_note 4)
@@ -76137,12 +76009,8 @@
    (loading_phrase
       "While Ringo was on holiday on Peter Sellers' yacht, the captain told Ringo that octopuses keep gardens beneath the sea, inspiring him to write a song about it."
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 174900)
    (genre rock)
-   (year_released 1969)
 )
 (paperbackwriter
    (vocal_tonic_note 7)
@@ -76156,12 +76024,8 @@
    (loading_phrase
       "'Paperback Writer' was the first UK Beatles single that was not a love song."
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 142759)
    (genre rock)
-   (year_released 1966)
 )
 (revolution
    (vocal_tonic_note 11)
@@ -76175,12 +76039,8 @@
    (loading_phrase
       "For \qRevolution\q,  the guitars were directly into the recording console, completely overloading the channel and creating grisly, heavily distorted guitar sounds."
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 206385)
    (genre rock)
-   (year_released 1968)
 )
 (sgtpepperlittlehelp
    (vocal_tonic_note 7)
@@ -76197,12 +76057,8 @@
    (name
       "Sgt. Pepper's Lonely Hearts Club Band/With a Little Help from My Friends"
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 287185)
    (genre psychadelic)
-   (year_released 1967)
 )
 (something
    (vocal_tonic_note 0)
@@ -76216,12 +76072,8 @@
    (loading_phrase
       "Frank Sinatra never had much good to say about rock music, but George Harrison's \qSomething\q was one of the few contemporary songs he liked enough to cover."
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 186758)
    (genre rock)
-   (year_released 1969)
 )
 (taxman
    (vocal_tonic_note 2)
@@ -76235,12 +76087,8 @@
    (loading_phrase
       "'One for you, nineteen for me' actually understates the case. George Harrison figured that for every 20 shillings (one pound) that The Beatles earned, they paid even MORE than 19 in taxes."
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 150884)
    (genre rock)
-   (year_released 1966)
 )
 (theend
    (vocal_tonic_note 9)
@@ -76254,12 +76102,8 @@
    (loading_phrase
       "While recording \qAbbey Road\q, Paul and John had a lot of good ideas lying around that hadn't grown into full songs. The solution was to combine them with new material to form a classical style suite, an idea supported by George Martin. Not a bad way to cap off a recording career."
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 126996)
    (genre rock)
-   (year_released 1969)
 )
 (tickettoride
    (vocal_tonic_note 9)
@@ -76276,12 +76120,8 @@
    (name
       "Ticket to Ride"
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 185908)
    (genre rock)
-   (year_released 1965)
 )
 (tomorrowwithin
    (vocal_tonic_note 0)
@@ -76295,12 +76135,8 @@
    (loading_phrase
       "This mash-up melds two of The Beatles' most spiritually inclined songs: \qWithin You Without You\q reflects George's absorption with meditation and John's \qTomorrow Never Knows\q draws its inspiration from \qThe Tibetan Book of the Dead\q."
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 144159)
    (genre psychadelic)
-   (year_released 2006)
 )
 (twistandshout
    (vocal_tonic_note 2)
@@ -76317,12 +76153,8 @@
    (name
       "Twist and Shout"
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 157305)
    (genre rock)
-   (year_released 1963)
 )
 (whilemyguitargentlyweeps
    (vocal_tonic_note 9)
@@ -76372,12 +76204,8 @@
    (loading_phrase
       "Very few guitarists could have walked into the studio with The Beatles, and Eric Clapton was the only one who ever did. George made friends with the young virtuoso guitarist, and invited him in for the solo."
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 295199)
    (genre rock)
-   (year_released 1968)
    (album_name
       "The Beatles"
    )
@@ -76394,12 +76222,8 @@
    (loading_phrase
       "You'd never know by listening, but the Rolling Stones' Brian Jones clinked glasses during this song's instrumental break."
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 160157)
    (genre rock)
-   (year_released 1966)
 )
 (abbeyroadmedley
    (game_origin beatles_dlc)
@@ -76411,12 +76235,8 @@
    (drum_bank
       "sfx/tbrb_kit_bank.milo"
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 992437)
    (genre rock)
-   (year_released 1969)
 )
 (adayinthelife
    (game_origin beatles_dlc)
@@ -76467,12 +76287,8 @@
    (name
       "A Day in the Life"
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 311762)
    (genre psychadelic)
-   (year_released 1967)
 )
 (allyouneedislove
    (game_origin beatles_dlc)
@@ -76484,12 +76300,8 @@
    (drum_bank
       "sfx/tbrb_kit_bank.milo"
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 224542)
    (genre psychadelic)
-   (year_released 1967)
 )
 (because
    (game_origin beatles_dlc)
@@ -76544,12 +76356,8 @@
    (strings_author
       "OrangeHarrison"
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 173329)
    (genre rock)
-   (year_released 1969)
 )
 (beingformrkite
    (game_origin beatles_dlc)
@@ -76564,12 +76372,8 @@
    (name
       "Being for the Benefit of Mr. Kite!"
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 160975)
    (genre psychadelic)
-   (year_released 1967)
 )
 (fixingahole
    (game_origin beatles_dlc)
@@ -76584,12 +76388,8 @@
    (name
       "Fixing a Hole"
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 160186)
    (genre psychadelic)
-   (year_released 1967)
 )
 (girl
    (game_origin beatles_dlc)
@@ -76601,12 +76401,8 @@
    (drum_bank
       "sfx/tbrb_kit_bank.milo"
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 159574)
    (genre rock)
-   (year_released 1965)
 )
 (goldencarrytheend
    (game_origin beatles_dlc)
@@ -76618,12 +76414,8 @@
    (drum_bank
       "sfx/tbrb_kit_bank.milo"
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 316518)
    (genre rock)
-   (year_released 1969)
 )
 (hermajesty
    (game_origin beatles_dlc)
@@ -76682,12 +76474,8 @@
    (strings_author
       "PikminGuts92"
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 29000)
    (genre rock)
-   (year_released 1969)
 )
 (inmylife
    (game_origin beatles_dlc)
@@ -76735,12 +76523,8 @@
    (keys_author
       "Erniewan"
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 149475)
    (genre rock)
-   (year_released 1965)
 )
 (lovelyrita
    (game_origin beatles_dlc)
@@ -76752,12 +76536,8 @@
    (drum_bank
       "sfx/tbrb_kit_bank.milo"
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 167493)
    (genre psychadelic)
-   (year_released 1967)
 )
 (maxwells
    (game_origin beatles_dlc)
@@ -76769,12 +76549,8 @@
    (drum_bank
       "sfx/tbrb_kit_bank.milo"
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 209440)
    (genre rock)
-   (year_released 1969)
 )
 (michelle
    (game_origin beatles_dlc)
@@ -76786,12 +76562,8 @@
    (drum_bank
       "sfx/tbrb_kit_bank.milo"
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 176148)
    (genre rock)
-   (year_released 1965)
 )
 (norwegianwood
    (game_origin beatles_dlc)
@@ -76803,12 +76575,8 @@
    (drum_bank
       "sfx/tbrb_kit_bank.milo"
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 129121)
    (genre rock)
-   (year_released 1965)
 )
 (nowhereman
    (game_origin beatles_dlc)
@@ -76820,12 +76588,8 @@
    (drum_bank
       "sfx/tbrb_kit_bank.milo"
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 170628)
    (genre rock)
-   (year_released 1965)
 )
 (ohdarling
    (game_origin beatles_dlc)
@@ -76873,12 +76637,8 @@
    (keys_author
       "Erniewan"
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 208344)
    (genre rock)
-   (year_released 1969)
 )
 (polythenebathroom
    (game_origin beatles_dlc)
@@ -76893,12 +76653,8 @@
    (name
       "Polythene Pam/She Came In Through the Bathroom Window"
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 192983)
    (genre rock)
-   (year_released 1969)
 )
 (runforyourlife
    (game_origin beatles_dlc)
@@ -76913,12 +76669,8 @@
    (name
       "Run for Your Life"
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 150750)
    (genre rock)
-   (year_released 1965)
 )
 (sgtpepperreprise
    (game_origin beatles_dlc)
@@ -76930,12 +76682,8 @@
    (drum_bank
       "sfx/tbrb_kit_bank.milo"
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 86355)
    (genre psychadelic)
-   (year_released 1967)
 )
 (shesleavinghome
    (game_origin beatles_dlc)
@@ -76947,12 +76695,8 @@
    (drum_bank
       "sfx/tbrb_kit_bank.milo"
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 220748)
    (genre psychadelic)
-   (year_released 1967)
 )
 (sunkingmeanmr
    (game_origin beatles_dlc)
@@ -77000,12 +76744,8 @@
    (keys_author
       "Erniewan"
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 224059)
    (genre rock)
-   (year_released 1969)
 )
 (theword
    (game_origin beatles_dlc)
@@ -77053,12 +76793,8 @@
    (keys_author
       "Erniewan"
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 175004)
    (genre rock)
-   (year_released 1965)
 )
 (thinkforyourself
    (game_origin beatles_dlc)
@@ -77073,12 +76809,8 @@
    (name
       "Think for Yourself"
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 143806)
    (genre rock)
-   (year_released 1965)
 )
 (wait
    (game_origin beatles_dlc)
@@ -77090,12 +76822,8 @@
    (drum_bank
       "sfx/tbrb_kit_bank.milo"
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 138475)
    (genre rock)
-   (year_released 1965)
 )
 (whatgoeson
    (game_origin beatles_dlc)
@@ -77107,12 +76835,8 @@
    (drum_bank
       "sfx/tbrb_kit_bank.milo"
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 171909)
    (genre rock)
-   (year_released 1965)
 )
 (whenim64
    (game_origin beatles_dlc)
@@ -77124,12 +76848,8 @@
    (drum_bank
       "sfx/tbrb_kit_bank.milo"
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 165135)
    (genre psychadelic)
-   (year_released 1967)
 )
 (withinyouwithoutyou
    (game_origin beatles_dlc)
@@ -77141,12 +76861,8 @@
    (drum_bank
       "sfx/tbrb_kit_bank.milo"
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 308300)
    (genre psychadelic)
-   (year_released 1967)
 )
 (younevergive
    (game_origin beatles_dlc)
@@ -77158,12 +76874,8 @@
    (drum_bank
       "sfx/tbrb_kit_bank.milo"
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 229198)
    (genre rock)
-   (year_released 1969)
 )
 (youwontseeme
    (game_origin beatles_dlc)
@@ -77222,12 +76934,8 @@
    (strings_author
       "Erniewan"
    )
-   (artist
-      "The Beatles"
-   )
    (song_length 208963)
    (genre rock)
-   (year_released 1965)
 )
 (AFeast
    (game_origin ugc_lost)
