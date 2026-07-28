@@ -85,7 +85,7 @@
                {set $speedmod $leaderspeed}
                ;{set $speedmod_top $leaderspeed}
                {unless {session_mgr is_local}
-                  {session send_msg_to_all {'`' (set $speedmod  {',' $leaderspeed}) kNetReliable}}
+                  {session send_msg_to_all {'`' (set $speedmod  {',' $leaderspeed})} kNetReliable}
                }
             }
          }
@@ -207,6 +207,7 @@
    ;   }
    ;}
 }
+;this function sucks actually
 {func
    dx_toggle_fail_feedback
    {if
@@ -231,14 +232,11 @@
             ($score {coop_track_panel find scoreboard})
             {{coop_track_panel find crowd_meter} set_showing {&& $show {== $dx_crowd_meter_hud dx_on}}}
             {foreach $entry (star_display numbers.grp sb_lens backplate.grp)
-               {{$scr find $entry} set_showing $show}
+               {{$score find $entry} set_showing $show}
             }
             {if {! $show}
-               {set_this {find_obj DX_VOCALDIR player_intro}}
-               {$this iterate UILabel $l {$l set_token_fmt os_blnk}}
                {if $vocalsplayeractive
                   {$vox set remote FALSE}
-                  {set_this {{get_track_panel} find vocals}}
                   {foreach $entry
                      (
                         tubes.grp tubes_milo.grp tube_range.grp
@@ -246,7 +244,7 @@
                         pitch_mid_marker.grp phoneme0.grp phoneme1.grp phoneme2.grp
                         main.grp lyrics.grp lyrics_harmony.grp
                      )
-                     {$entry set_showing FALSE}
+                     {{{{get_track_panel} find vocals} find $entry} set_showing FALSE}
                   }
                   {$vox milo_apply}
                }
@@ -347,49 +345,6 @@
    {gold_star_flash_border.mesh set_local_scale 2 2 2}
    {$stargrp add_object gold_star_flash_border.mesh}
    #endif
-}
-
-{func
-   dx_update_gold_flash
-   {set_this coop_track_panel}
-   {if {&& {! {modifier_mgr is_modifier_active mod_nohud}} {! {modifier_mgr is_modifier_active mod_fakejuke}} {! {modifier_mgr is_modifier_active mod_karaoke}} $dx_gold_star_progress $dx_mtvup {! {gamemode in_mode practice}} {! {gamemode in_mode trainer}} {! {gamemode in_mode tour}} {! {gamemode in_mode campaign}}}
-      {set $dx_num_stars {{{coop_track_panel find scoreboard} find star_display} get num_stars}}
-      {if_else {&& {>= $dx_num_stars 5.0} {! {>= $dx_num_stars 6.0}}} ; We don't need the stars to flash when you achieve golds
-         {do
-            {if {! $dx_gold_flash_on}
-               {if {! $dx_gold_flash_spawned}
-                  {dx_init_gold_flash}
-               }
-               {set $dx_gold_flash_on TRUE}
-               {gold_star_handler show_stars}
-               {gold_star_handler start_anim}
-            }
-            {gold_star_handler set_star_progress {- $dx_num_stars 5.0}}
-         }
-         {do
-            {if $dx_gold_flash_on
-               {set $dx_gold_flash_on FALSE}
-               {gold_star_handler hide_stars}
-               {gold_star_handler stop_anim}
-            }
-         }
-      }
-   }
-}
-
-
-{func
-   dx_blink_gold_star_off
-   {if {&& $dx_mtvup {! {gamemode in_mode practice}} {! {gamemode in_mode trainer}} {! {gamemode in_mode tour}} {! {gamemode in_mode campaign}} {>= $dx_num_stars 5.0}}
-      {set $star_transition_ran FALSE}
-      {{coop_track_panel find dx_star_base.tex} iterate_refs $ref {$ref set diffuse_tex {coop_track_panel find dx_star_base.tex}}}
-      {{coop_track_panel find score_star_frame.tex} iterate_refs $ref {$ref set diffuse_tex {coop_track_panel find dx_star_base.tex}}}
-      {{coop_track_panel find {sprint "dx_star_gold_" $star_num_frame ".tex"}} iterate_refs $ref {$ref set diffuse_tex {coop_track_panel find dx_star_base.tex}}}
-      {if {> $star_num_frame 0}
-         {{coop_track_panel find {sprint "dx_star_gold_" {- $star_num_frame 1} ".tex"}} iterate_refs $ref {$ref set diffuse_tex {coop_track_panel find dx_star_base.tex}}}
-         {{coop_track_panel find {sprint "dx_star_gold_" {+ $star_num_frame 1} ".tex"}} iterate_refs $ref {$ref set diffuse_tex {coop_track_panel find dx_star_base.tex}}}
-      }
-   }
 }
 
 {func

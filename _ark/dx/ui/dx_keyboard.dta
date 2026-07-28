@@ -1,4 +1,5 @@
 {set $focused_input_field 0}
+{set $clipboard ""}
 {func dx_create_input_field ($name)
     {do
         ($fielddir {new RndDir $name 
@@ -19,6 +20,19 @@
                         {switch $key
                             (KB_a {set [highlight_start] 0} {set [highlight_end] {strlen [buf]}} {set [caret] [highlight_end]} {$this sync_caret})
                             (KB_BACKSPACE {$this delete_char}) ; This should be delete word but it's not implemented yet
+                            (KB_SPACE {[sink_obj] input_field_swap_shortcut})
+                            (KB_c
+                                {if {$this has_highlight}
+                                    {set $clipboard {substr [buf] [highlight_start] {- [highlight_end] [highlight_start]}}}
+                                }
+                            )
+                            (KB_x
+                                {if {$this has_highlight}
+                                    {set $clipboard {substr [buf] [highlight_start] {- [highlight_end] [highlight_start]}}}
+                                    {$this erase_highlight}
+                                }
+                            )
+                            (KB_v {$this insert_char $clipboard})
                         }
                     }
                     {do
@@ -30,6 +44,8 @@
                             (KB_BACKSPACE {$this delete_char})
                             (KB_LEFT {if_else $shift {$this sel_left} {$this shift_caret -1}})
                             (KB_RIGHT {if_else $shift {$this sel_right} {$this shift_caret 1}})
+                            (KB_UP {$this seek_history 1})
+                            (KB_DOWN {$this seek_history -1})
                             (KB_ENTER {$this accept})
                         }
                     }
@@ -47,7 +63,7 @@
                         {$this set buf {sprint {substr [buf] 0 [caret]} $char {substr [buf] [caret] {- {strlen [buf]} [caret]}}}}
                     }
                 }
-                {+= [caret] 1}
+                {+= [caret] {strlen $char}}
                 {$this update_label}
                 {$this sync_caret}
                 {$this send_update_msg}
@@ -100,6 +116,9 @@
                         {$this sync_caret}
                     }
                 }
+                {if {== {strlen [buf]} 0}
+                    {[sink_obj] input_field_swap_shortcut}
+                }
             )
             (sel_left
                 {unless {$this has_highlight}
@@ -139,10 +158,43 @@
             )
 
             (accept
+                ; Remove a string from history if it already exists and place it at the front
+                ; find_elem is the only one that actually strcmps the elements instead of just doing a simple pointer comparison
+                {if {find_elem [history] [buf] $found}
+                    {remove_elem [history] {elem [history] $found}}
+                }
+                {insert_elem [history] 0 [buf]}
+                {if {> {size [history]} 30}
+                    {resize [history] 30}
+                }
+                {set [history_index] -1}
                 {if [unfocus_on_accept]
                     {dx_keyboard_unfocus}
                 }
                 {[sink_obj] input_field_accept $this [buf]}
+            )
+
+            (seek_history ($offset)
+                {+= [history_index] $offset}
+
+                {clamp_eq [history_index] -1 {- {size [history]} 1}}
+
+                {$this clear_highlight}
+
+                {if_else {== [history_index] -1}
+                    {do
+                        {set [buf] ""}
+                        {set [caret] 0}
+                    }
+                    {do
+                        {set [buf] {elem [history] [history_index]}}
+                        {set [caret] {strlen [buf]}}
+                    }
+                }
+
+                {$this update_label}
+                {$this sync_caret}
+                {$this send_update_msg}
             )
 
             (send_update_msg
@@ -250,6 +302,8 @@
             {text.lbl set draw_order 10}
             {text.lbl set_trans_parent $this}
             {$this set sink_obj kDataUnhandled}
+            {$this set history {array 0}}
+            {$this set history_index -1}
             {$this set buf ""}
             {$this set caret 0}
             {$this set focused FALSE}
@@ -294,7 +348,6 @@
     }
 }
 
-#ifdef DX_CONSOLE
 {func try_toggle_console
     {do
         {with overshell
@@ -326,15 +379,6 @@
         $out
     }
 }
-#else
-; Do nothing!
-{func try_toggle_console
-    kDataUnhandled
-}
-{func enter_console_shortcut ($key)
-    FALSE
-}
-#endif
 
 {func dx_shortcut_handler ($key $shift $ctrl $alt)
     {set $consume_input FALSE}

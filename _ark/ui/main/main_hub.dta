@@ -3,9 +3,6 @@
    ;this is the main non-vanilla call flow for entering the main menu (non PaS)
    ;please put anything new in here
    (dx_main_on_enter
-      ;dx does not use bns modifier, if its set in the save, disable and calculate track speed equivalent 
-      {$this dx_correct_bns}
-
       #ifdef HX_XBOX
       {$this dx_warn_cache_expired}
       #endif
@@ -220,20 +217,6 @@
                }
             }
          }
-      }
-   )
-   (dx_correct_bns
-      ;correct bns to new speed system
-      {if {modifier_mgr is_modifier_active mod_doublespeed}
-         {disable_modifier mod_doublespeed}
-         {foreach $entry (guitar bass drum keys real_keys real_guitar real_bass)
-            {set_var {sprint "trackspeed_" $entry}
-               {dx_fixup_bns
-                  {eval {var {sprint "trackspeed_" $entry}}}
-               }
-            }
-         }
-         {dx_settings_dta_writer}
       }
    )
    (dx_unlock_pre_orders
@@ -489,8 +472,8 @@
                {set $dx_in_show_flow TRUE}
                {meta_performer set_song antibodies}
                {if {is_leader_local}
-                  ;{session send_msg_to_all {'`' (set $dx_in_show_flow TRUE) kNetReliable}}
-                  ;{session send_msg_to_all {'`' (meta_performer set_song antibodies) kNetReliable}}
+                  ;{session send_msg_to_all {'`' (set $dx_in_show_flow TRUE)} kNetReliable}
+                  ;{session send_msg_to_all {'`' (meta_performer set_song antibodies)} kNetReliable}
                   {ui sync_screen dx_play_a_show_screen 0}
                }
             }
@@ -592,7 +575,7 @@
       {input_mgr check_trigger_auto_vocals_confirm}
       {overshell set_allow_real_guitar_flow TRUE}
       {overshell update_all}
-      #ifndef HX_PS3
+      #ifndef HX_PS3 ;on ps3 we enumerate on splash screen
       {content_mgr start_refresh}
       #endif
       {campaign clear_current_goal}

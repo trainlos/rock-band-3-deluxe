@@ -1101,8 +1101,8 @@
                {if_else $dx_playing_a_show
                   {do
                      {set $dx_in_show_flow TRUE}
-                     ;{session send_msg_to_all {'`' (set $dx_in_show_flow TRUE) kNetReliable}}
-                     ;{session send_msg_to_all {'`' (meta_performer set_song antibodies) kNetReliable}}
+                     ;{session send_msg_to_all {'`' (set $dx_in_show_flow TRUE)} kNetReliable}
+                     ;{session send_msg_to_all {'`' (meta_performer set_song antibodies)} kNetReliable}
                      {meta_performer set_song antibodies}
                      {ui sync_screen meta_loading_continue_screen 0}
                   }
@@ -1111,8 +1111,8 @@
                {if_else $dx_playing_a_show
                   {do
                      {set $dx_in_show_flow TRUE}
-                     ;{session send_msg_to_all {'`' (set $dx_in_show_flow TRUE) kNetReliable}}
-                     ;{session send_msg_to_all {'`' (meta_performer set_song antibodies) kNetReliable}}
+                     ;{session send_msg_to_all {'`' (set $dx_in_show_flow TRUE)} kNetReliable}
+                     ;{session send_msg_to_all {'`' (meta_performer set_song antibodies)} kNetReliable}
                      {meta_performer set_song antibodies}
                      {ui sync_screen meta_loading_continue_screen 0}
                   }
@@ -3250,10 +3250,12 @@
    (part_unresolved TRUE)
    (shows_extended_mic_arrows TRUE)
    (enter
-      {if_else {dx_check_for_dupe {$this get_slot_num}}
-         {$this show_state kState_ChooseDiff} ; dx - force enter ChooseDiff state if Pro player exists but not 5L and vice-versa
-         {$this show_state kState_ChoosePart} ; dx - returns to ChoosePart if another player already has the part
-         ;{$this show_choose_part_wait} ; dx - deprecated vanilla behavior
+      {if {{$this get_user} is_local}   
+         {if_else {dx_check_for_dupe {$this get_slot_num}}
+            {$this show_state kState_ChooseDiff} ; dx - force enter ChooseDiff state if Pro player exists but not 5L and vice-versa
+            {$this show_state kState_ChoosePart} ; dx - returns to ChoosePart if another player already has the part
+            ;{$this show_choose_part_wait} ; dx - deprecated vanilla behavior
+         }
       }
    )
    (update_remote_feedback
@@ -3439,7 +3441,8 @@
          {if {== {ui current_screen} coop_endgame_screen}
             {set $dx_restart_allowed FALSE}
             {session send_msg_to_all
-               {'`' ({set $dx_restart_allowed FALSE}) kNetReliable}
+               {'`' ({set $dx_restart_allowed FALSE})}
+               kNetReliable
             }
          }
          ; dx - re-run track textures on drop-in
