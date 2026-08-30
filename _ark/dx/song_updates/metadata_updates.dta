@@ -256,7 +256,7 @@
 (pickmeup (song_id 1005647))
 (pickupthepieces (genre rbsoulfunk))
 (pilgrim (genre hardrock))
-(pokerface (genre popdanceelectronic) (rating 3))
+(pokerface (genre popdanceelectronic))
 (powerslave (album_name "Powerslave") (album_track_number 7))
 (prettyflyforawhiteguy (genre punk))
 (prettynoose (album_name "Down on the Upside"))

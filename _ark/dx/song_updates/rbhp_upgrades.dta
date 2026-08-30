@@ -360,7 +360,6 @@
       (band 395)
    )
    (version 30)
-   (sonic_tonality 0)
    (keys_author "mazegeek")
 )
 (badreputation
@@ -458,7 +457,6 @@
    )
    (version 29)
    (keys_author "sageamagoo") ; Axo estuvo aqui
-   (sonic_tonality 0)
 )
 (floaton
    (song
