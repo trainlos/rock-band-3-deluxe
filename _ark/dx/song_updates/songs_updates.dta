@@ -77198,6 +77198,9 @@
 )
 (UGC_5002049
    (game_origin ugc_lost)
+   (author
+      "Alt-StrumProductions"
+   )
    (drum_bank
       "sfx/rb2_kit01_bank.milo"
    )
