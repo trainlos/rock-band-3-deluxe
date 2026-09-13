@@ -16853,7 +16853,7 @@
       (bass 122)
       (vocals 115)
       (real_guitar 99)
-      (real_bass 129)
+      (real_bass 180)
       (band 140)
    )
    (real_guitar_tuning
@@ -21806,30 +21806,30 @@
       )
    )
    (extra_authoring disc_update)
-   (upgrade_version 1)
    (rank
       (drum 240)
       (guitar 150)
       (bass 150)
       (vocals 240)
       (keys 1)
-      (real_guitar 176)
-      (real_bass 181)
       (real_keys 1)
       (band 195)
+      (real_guitar 190)
+      (real_bass 186)
    )
    (version 30)
+   (keys_author
+      "TheSheepQueen"
+   )
+   (upgrade_version 1)
    (real_guitar_tuning
       (0 0 0 0 0 0)
    )
    (real_bass_tuning
       (0 0 0 0)
    )
-   (keys_author
-      "TheSheepQueen"
-   )
    (strings_author
-      "Shroud"
+      "Shroud, JDK"
    )
    (song_id 1005012)
    (preview 24750 54750)
@@ -39721,8 +39721,38 @@
    (song_id 1005618)
    (song
       (vocal_parts 2)
+      (tracks
+         (
+            (drum
+               (0 1 2 3)
+            )
+            (bass 4)
+            (guitar
+               (5 6)
+            )
+            (vocals
+               (7 8)
+            )
+            (keys
+               (9 10)
+            )
+         )
+      )
    )
    (extra_authoring disc_update)
+   (rank
+      (drum 300)
+      (guitar 288)
+      (bass 273)
+      (vocals 162)
+      (keys 314)
+      (real_keys 314)
+      (band 280)
+   )
+   (version 30)
+   (keys_author
+      "SonicSBL"
+   )
    (song_length 210909)
    (solo
       (guitar)
