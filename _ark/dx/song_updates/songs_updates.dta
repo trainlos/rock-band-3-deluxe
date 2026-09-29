@@ -12732,6 +12732,9 @@
    )
    (rating 1)
    (genre poprock)
+   (album_name
+      "In Color: Albini Sessions"
+   )
    (song
       (vocal_parts 2)
       (tracks
@@ -15746,25 +15749,16 @@
       )
    )
    (extra_authoring disc_update)
-   (upgrade_version 1)
    (rank
       (drum 209)
       (guitar 168)
       (bass 146)
       (vocals 144)
       (keys 327)
-      (band 181)
-      (real_guitar 168)
-      (real_bass 146)
       (real_keys 327)
+      (band 181)
    )
    (version 30)
-   (real_guitar_tuning
-      (0 0 0 0 0 0)
-   )
-   (real_bass_tuning
-      (0 0 0 0)
-   )
    (keys_author
       "Linos Melendi"
    )
@@ -34588,26 +34582,14 @@
       )
    )
    (extra_authoring disc_update)
-   (upgrade_version 1)
    (rank
       (drum 346)
       (guitar 240)
       (bass 240)
       (vocals 136)
-      (real_guitar 221)
-      (real_bass 181)
       (band 268)
       (keys 1)
       (real_keys 1)
-   )
-   (real_guitar_tuning
-      (0 0 0 0 0 0)
-   )
-   (real_bass_tuning
-      (0 0 0 0)
-   )
-   (strings_author
-      "Shroud"
    )
    (version 30)
    (keys_author
@@ -37385,6 +37367,25 @@
       (vocal_parts 3)
    )
    (extra_authoring disc_update)
+   (upgrade_version 1)
+   (rank
+      (drum 250)
+      (guitar 257)
+      (bass 235)
+      (vocals 241)
+      (real_guitar 376)
+      (real_bass 399)
+      (band 245)
+   )
+   (real_guitar_tuning
+      (0 0 0 0 0 0)
+   )
+   (real_bass_tuning
+      (0 0 0 0)
+   )
+   (strings_author
+      "JDK"
+   )
    (song_id 1005076)
    (song_length 335909)
    (solo
@@ -43881,26 +43882,14 @@
       )
    )
    (extra_authoring disc_update)
-   (upgrade_version 1)
    (rank
       (drum 240)
       (guitar 220)
       (bass 210)
       (vocals 240)
-      (real_guitar 221)
-      (real_bass 228)
-      (band 225)
       (keys 1)
       (real_keys 1)
-   )
-   (real_guitar_tuning
-      (0 0 0 0 0 0)
-   )
-   (real_bass_tuning
-      (0 0 0 0)
-   )
-   (strings_author
-      "Shroud"
+      (band 225)
    )
    (version 30)
    (keys_author
@@ -48457,6 +48446,9 @@
    (song_tonality 1)
    (drum_bank
       "sfx/rb2_kit01_bank.milo"
+   )
+   (artist
+      "The Black Dahlia Murder"
    )
    (song
       (vocal_parts 3)
@@ -64169,6 +64161,27 @@
 (heartofthesunrise
    (game_origin rb3dlc)
    (extra_authoring disc_update)
+   (upgrade_version 1)
+   (rank
+      (drum 405)
+      (guitar 348)
+      (bass 390)
+      (vocals 251)
+      (keys 495)
+      (real_guitar 470)
+      (real_bass 485)
+      (real_keys 495)
+      (band 380)
+   )
+   (real_guitar_tuning
+      (0 0 0 0 0 0)
+   )
+   (real_bass_tuning
+      (0 0 0 0)
+   )
+   (strings_author
+      "JDK"
+   )
    (rb4_lanes 1)
    (author
       "Harmonix"
