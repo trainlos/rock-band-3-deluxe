@@ -807,6 +807,21 @@
       }
       ;HACK dx settings fucks up the display num on this list in game so just hard set it back whatever sure
       {if {$this in_game} {options.lst set display_num 6}}
+      {script_task kTaskUISeconds
+         (delay 0.026)
+         (script
+            {do
+               ($grp
+                  {if_else {'||' {$this in_game} {gamemode in_mode drum_freestyle}}
+                     options_in_game
+                     options
+                  }
+               )
+               {{sprint $grp ".grp"} set_showing TRUE}
+               {options.lst reveal}
+            }
+         )
+      }
    )
    (update_view
       {handle ($this update_online_options_allowed {! {session_mgr is_busy}})}
@@ -1438,6 +1453,13 @@
       {do
          ($no_fail_enabled {modifier_mgr is_modifier_active mod_no_fail_band})
          {handle ($this update_no_fail_enabled $no_fail_enabled)}
+      }
+      {script_task kTaskUISeconds
+         (delay 0.026)
+         (script
+            {game_options.grp set_showing TRUE}
+            {game_options.lst reveal}
+         )
       }
    )
    (update_view
@@ -2134,9 +2156,12 @@
                   }
                   {dx_passive_messenger_symbol
                      {symbol
-                        {song_mgr song_file_path
-                           {{music_library get_highlighted_node} get_token}
-                           " "
+                        {dx_wrap_text
+                           {song_mgr song_file_path
+                              {{music_library get_highlighted_node} get_token}
+                              " "
+                           }
+                           40
                         }
                      }
                   }
