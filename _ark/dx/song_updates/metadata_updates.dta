@@ -1077,6 +1077,7 @@
 (theseeker (genre hardrock))
 
 ; Rock Band 4 DLC changes
+(badguy (album_name "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?"))
 (bloodyvalentine (artist "mgk"))
 (coldheart (name "Cold Heart (PNAU Remix) (with Dua Lipa)") (artist "Elton John"))
 (getlucky (name "Get Lucky (Radio Edit) (ft. Pharrell Williams & Nile Rodgers)") (album_name "") (album_track_number 1))
