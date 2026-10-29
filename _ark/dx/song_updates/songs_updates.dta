@@ -47046,21 +47046,6 @@
                (10 11)
             )
          )
-         (
-            (drum
-               (0 1 2 3 4)
-            )
-            (bass 5)
-            (guitar
-               (6 7)
-            )
-            (vocals
-               (8 9)
-            )
-            (keys
-               (10 11)
-            )
-         )
       )
    )
    (extra_authoring disc_update)
