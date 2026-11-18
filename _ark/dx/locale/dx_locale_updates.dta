@@ -390,6 +390,7 @@
 (os_dx_swap_gender_on "Swap Cosmetics: ON")
 (os_judgment_dbg_off "Judgment Dbg: OFF")
 (os_judgment_dbg_on "Judgment Dbg: ON")
+(os_report_shortname "Report Shortname")
 (os_rnd_overlay "Debug Overlay...")
 (os_testfeatures "Test Features...")
 (os_testpatterns "Test Patterns...")
@@ -751,6 +752,8 @@
 (os_author_finder_on_desc "Toggles a variety of extra options for the song title text display")
 (os_author_off "Author: OFF")
 (os_author_on "Author: ON")
+(os_extended_metadata_off "Extended Metadata: OFF")
+(os_extended_metadata_on "Extended Metadata: ON")
 (os_bar_bre_off "Big Rock Endings: Off")
 (os_bar_bre_off_desc "Displays Big Rock Endings on the song progress bar")
 (os_bar_bre_on "Big Rock Endings: On")
@@ -2099,7 +2102,7 @@
 #ifdef HX_PC
 (community_no_server_warning "Couldn't connect to GoCentral.\n\nYou won't be able to access the leaderboards.  Continue anyway?")
 #endif
-(confirm_quit_online "You lose all unsaved progress if you continue. Are you sure you want to continue?")
+(dx_confirm_quit_online_host "You lose all unsaved progress if you continue. Are you sure you want to continue?")
 (connecting_server "Connecting to GoCentral...")
 (create_char_gender "Body")
 (delete_song "Delete Song Pack")
